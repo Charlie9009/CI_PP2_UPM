@@ -1,4 +1,9 @@
 
+body, html {
+    background: url("/assets/images/flag.jpg") no-repeat fixed;
+    color: white;
+}
+
 nav {
     overflow: hidden;
     background-color: rgb(179, 0, 0);
