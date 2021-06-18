@@ -32,3 +32,18 @@ h1 {
 h2 {
     margin-top: 50px;
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 700px;
+    background-color: black;
+}
+
+.card {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+}
