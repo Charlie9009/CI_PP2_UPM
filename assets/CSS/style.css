@@ -48,3 +48,7 @@ h2 {
     height: 100px;
     position: relative;
 }
+
+.front-card, .back-card {
+    position: absolute;
+}
