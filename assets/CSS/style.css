@@ -43,16 +43,15 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     height: 600px;
-    width: 700px;
+    width: 600px;
     background-color: black;
     margin: auto;
-    border: 2px solid lime;
+    border: 2px solid black;
 }
 
 .card {
-    background-color: white;
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 20%;
     position: relative;
     border: 2px solid lime;
 }
