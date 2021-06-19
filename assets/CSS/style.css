@@ -48,12 +48,13 @@ h2 {
     width: 600px;
     
     margin: auto;
-    border: 2px solid black;
+    
 }
 
 .card {
-    width: 20%;
-    height: 20%;
+    width: calc(20% - 10px);
+    height: calc(20% - 10px);
+    margin: 5px;
     position: relative;
     border: 2px solid lime;
     background-color: black;
