@@ -41,6 +41,19 @@ h2 {
     margin-top: 50px;
 }
 
+h3 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#time-expired {
+    margin-right: 200px;
+}
+
+#moves-made {
+    margin-left: 0px;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
