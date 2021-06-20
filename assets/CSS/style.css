@@ -78,3 +78,7 @@ h3 {
     border-radius: 5px;
     padding: 10px;
 }
+
+.card.open.show {
+    transform: rotateY(180deg);
+}
