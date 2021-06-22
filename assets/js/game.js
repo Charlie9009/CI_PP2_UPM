@@ -2,6 +2,8 @@
 let card = document.getElementsByClassName('card');
 let cards = [...card];
 let lockTheBoard = false;
+var moves = 0;
+var counter = document.querySelector('#moves-made');
 
 for (var i = 0; i < cards.length; i++) {
     cards[i].addEventListener('click', flipCard);
@@ -63,3 +65,8 @@ function unflipCardsWhenWrong() {
         card.style.order = randomPosition;
     });
 })();
+
+function moveCounter() {
+    moves++;
+    counter.innerHTML = moves
+}
