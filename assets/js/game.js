@@ -21,18 +21,30 @@ function flipCard() {
     } else {
         flippedCard = false;
         secondCardChoice = this;
-        // Checking if the cards match
-        if (firstCardChoice.dataset.name === secondCardChoice.dataset.name) {
-            // If cards match remove the eventlisteners
-            firstCardChoice.removeEventListener('click', flipCard);
-            secondCardChoice.removeEventListener('click', flipCard)
-        } else {
-            // When cards don't match flip them back after a timeout
-            setTimeout(() => {
-            firstCardChoice.classList.remove('open')
-            secondCardChoice.classList.remove('open')
-        }, 1000);
+
+        checkForMatch();
     }
-        
+}
+
+function checkForMatch() {
+    // Checking if the cards match
+    if (firstCardChoice.dataset.name === secondCardChoice.dataset.name) {
+        disableCardsWhenMatch();
+    } else {
+        // When cards don't match flip them back after a timeout
+        unflipCardsWhenWrong();
     }
+}
+
+function disableCardsWhenMatch() {
+    // If cards match remove the eventlisteners
+    firstCardChoice.removeEventListener('click', flipCard);
+    secondCardChoice.removeEventListener('click', flipCard)
+}
+
+function unflipCardsWhenWrong() {
+    setTimeout(() => {
+        firstCardChoice.classList.remove('open')
+        secondCardChoice.classList.remove('open')
+    }, 1000);
 }
