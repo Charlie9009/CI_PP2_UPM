@@ -2,8 +2,8 @@
 let card = document.getElementsByClassName('card');
 let cards = [...card];
 let lockTheBoard = false;
-var moves = 0;
-var counter = document.querySelector('#moves-made');
+let moves = 0;
+let counter = document.querySelector('#moves-made');
 
 for (var i = 0; i < cards.length; i++) {
     cards[i].addEventListener('click', flipCard);
@@ -40,6 +40,7 @@ function checkForMatch() {
         // When cards don't match flip them back after a timeout
         unflipCardsWhenWrong();
     }
+    moveCounter();
 }
 
 function disableCardsWhenMatch() {
@@ -68,5 +69,12 @@ function unflipCardsWhenWrong() {
 
 function moveCounter() {
     moves++;
-    counter.innerHTML = moves
+    counter.innerHTML = moves;
+    //start timer on first click
+    if(moves == 1){
+        second = 0;
+        minute = 0; 
+        hour = 0;
+        startTimer();
+    }
 }
