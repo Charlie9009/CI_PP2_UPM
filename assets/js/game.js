@@ -56,3 +56,10 @@ function unflipCardsWhenWrong() {
         lockTheBoard = false;
     }, 1000);
 }
+
+(function shuffleCards() {
+    cards.forEach(card => {
+        let randomPosition = Math.floor(Math.random() * 12);
+        card.style.order = randomPosition;
+    });
+})();
