@@ -1,7 +1,9 @@
 // Add a card array and a loop to add eventListener to cards
 let card = document.getElementsByClassName('card');
 let cards = [...card];
+// For locking the board function
 let lockTheBoard = false;
+// For the move counter
 let moves = 0;
 let counter = document.querySelector('#moves-made');
 
@@ -40,6 +42,7 @@ function checkForMatch() {
         // When cards don't match flip them back after a timeout
         unflipCardsWhenWrong();
     }
+    // Counts every move to see score
     moveCounter();
 }
 
@@ -77,4 +80,20 @@ function moveCounter() {
         hour = 0;
         startTimer();
     }
+}
+
+// Timer variables
+var second = 0, minute = 0;
+var timer = document.querySelector('#time-expired');
+var interval;
+
+function startTimer() {
+    interval = setInterval(function() {
+        timer.innerHTML = minute + 'mins' + second + 'secs';
+        second++;
+        if (second == 60) {
+            minute++;
+            second = 0;
+        }
+    }, 1000);
 }
