@@ -9,6 +9,7 @@ for (var i = 0; i < cards.length; i++) {
 let flippedCard = false;
 let firstCardChoice, secondCardChoice;
 
+// Function to flip the cards
 function flipCard() {
     this.classList.toggle('open');
     this.classList.toggle('show');
@@ -20,6 +21,18 @@ function flipCard() {
     } else {
         flippedCard = false;
         secondCardChoice = this;
-
+        // Checking if the cards match
+        if (firstCardChoice.dataset.name === secondCardChoice.dataset.name) {
+            // If cards match remove the eventlisteners
+            firstCardChoice.removeEventListener('click', flipCard);
+            secondCardChoice.removeEventListener('click', flipCard)
+        } else {
+            // When cards don't match flip them back after a timeout
+            setTimeout(() => {
+            firstCardChoice.classList.remove('open')
+            secondCardChoice.classList.remove('open')
+        }, 1000);
+    }
+        
     }
 }
