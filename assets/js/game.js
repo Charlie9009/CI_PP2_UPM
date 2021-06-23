@@ -1,15 +1,15 @@
 // Add a card array and a loop to add eventListener to cards
 let card = document.getElementsByClassName('card');
 let cards = [...card];
+
+for (var i = 0; i < cards.length; i++) {
+    cards[i].addEventListener('click', flipCard);
+};
 // For locking the board function
 let lockTheBoard = false;
 // For the move counter
 let moves = 0;
 let counter = document.querySelector('#moves-made');
-
-for (var i = 0; i < cards.length; i++) {
-    cards[i].addEventListener('click', flipCard);
-};
 
 let flippedCard = false;
 let firstCardChoice, secondCardChoice;
