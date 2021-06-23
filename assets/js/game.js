@@ -99,7 +99,13 @@ function startTimer() {
 }
 
 function resetGame() {
-
+    (function shuffleCards() {
+        cards.forEach(card => {
+            let randomPosition = Math.floor(Math.random() * 12);
+            card.style.order = randomPosition;
+        });
+    })();
+    
     moves = 0;
     counter.innerHTML = moves;
 
