@@ -35,15 +35,18 @@ nav > a:hover {
 
 h1 {
     margin-top: 100px;
+    color: rgb(255, 0, 0);
 }
 
 h2 {
     margin-top: 50px;
+    color: white;
 }
 
 h3 {
     text-align: center;
     margin: 20px auto;
+    color: rgb(255, 0, 0);
 }
 
 #time-expired {
