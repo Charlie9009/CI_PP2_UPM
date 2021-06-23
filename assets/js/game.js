@@ -99,6 +99,7 @@ function startTimer() {
 }
 
 function resetGame() {
+
     moves = 0;
     counter.innerHTML = moves;
 
