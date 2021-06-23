@@ -133,3 +133,9 @@ legend {
     border-radius: 10px;
 }
 
+#submit {
+    margin-top: 20px;
+    width: 20%;
+    height: 10%;
+    border-radius: 10px;
+}
