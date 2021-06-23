@@ -97,3 +97,12 @@ function startTimer() {
         }
     }, 1000);
 }
+
+function resetGame() {
+    moves = 0;
+    counter.innerHTML = moves;
+
+    var timer = document.querySelector('#time-expired');
+    timer.innerHTML = '0 mins 0 secs';
+    clearInterval(interval);
+}
