@@ -99,17 +99,5 @@ function startTimer() {
 }
 
 function resetGame() {
-    (function shuffleCards() {
-        cards.forEach(card => {
-            let randomPosition = Math.floor(Math.random() * 12);
-            card.style.order = randomPosition;
-        });
-    })();
-    
-    moves = 0;
-    counter.innerHTML = moves;
-
-    var timer = document.querySelector('#time-expired');
-    timer.innerHTML = '0 mins 0 secs';
-    clearInterval(interval);
+    location.reload();
 }
