@@ -14,22 +14,23 @@
     <header>
         <nav>
             <a href="index.html">Game</a>
-            <a href="#">Some page</a>
+            <a href="some_page.html">Some page</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
 
     <div id="container-form">
-        <form name="contactForm" onsubmit="return validateForm()" action=""></form>
+        <form name="contactForm" onsubmit="return validateForm()" method="POST" action="/action_page.php"></form>
         <legend>Sign up to receive the lastest info on the president</legend>
 
 
         <input type="text" name="name" id="full-name" class="name-email" placeholder="Full Name" required>
  
         <input type="email" name="email" id="email" class="name-email" placeholder="Email" required>
-        <input type="submit" id="submit">
+        <input type="submit" id="submit" value="Submit">
         
     </div>
+    <script src="/assets/js/form.js"></script>
 </body>
 
 </html>
