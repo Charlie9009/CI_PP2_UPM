@@ -112,11 +112,14 @@ button:hover {
     height: 500px;
     width: 500px;
     justify-content: center;
-    align-content: flex-start;
     border: 2px solid white;
     margin: 50px auto;
     background-color: rgb(182, 52, 52);
     opacity: 0.9;
+}
+
+form {
+    position: relative;
 }
 
 legend {
@@ -131,13 +134,16 @@ legend {
     text-align: center;
     font-size: 100%;
     border-radius: 10px;
+    position: relative;
 }
 
 #submit {
-    margin-top: 30px;
+    margin: 30px auto;
     width: 30%;
     height: 10%;
     border-radius: 10px;
+    position: relative;
+    display: block;
 }
 
 #submit:hover {
