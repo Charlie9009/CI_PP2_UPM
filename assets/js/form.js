@@ -9,6 +9,8 @@ function validateForm() {
         alert('Name must be filled out');
     } else if (email === '') {
         alert('email must be filled out');
+    } else {
+        return;
     }
     return false;
 }
