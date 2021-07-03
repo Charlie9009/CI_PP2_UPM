@@ -82,7 +82,8 @@ button:hover {
     flex-wrap: wrap;
     height: 600px;
     width: 600px;
-    margin: auto;
+    margin: 0 auto;
+    align-content: center;
 }
 
 /** All game cards **/
@@ -166,6 +167,11 @@ legend {
 
 /** For screens smaller than 650px **/
 @media screen and (max-width: 650px) {
+
+    /** Game container **/
+    .grid {
+        flex-direction: column;
+    }
 
     /** Form **/
     #container-form {
