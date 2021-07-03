@@ -38,12 +38,14 @@ nav>a:hover {
 h1 {
     margin-top: 100px;
     color: rgb(255, 0, 0);
+    align-content: center;
 }
 
 h2 {
     text-align: center;
     margin: 20px auto;
     color: rgb(255, 0, 0);
+    align-content: center;
 }
 
 /** Button for restarting game **/ 
@@ -68,12 +70,12 @@ button:hover {
 
 /** time expired heading **/
 #time-expired {
-    margin-right: 200px;
+    width: 100%;
 }
 
 /** moves made heading **/
 #moves-made {
-    margin-left: 0px;
+    width: 100%;
 }
 
 /** Container for the game area **/
@@ -167,11 +169,8 @@ legend {
 
 /** For screens smaller than 650px **/
 @media screen and (max-width: 650px) {
-
     /** Game container **/
-    .grid {
-        flex-direction: column;
-    }
+    
 
     /** Form **/
     #container-form {
