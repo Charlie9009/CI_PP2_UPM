@@ -12,6 +12,7 @@ body, html {
     height: 100vh;
 }
 
+/** Nav styling **/
 nav {
     overflow: hidden;
     background-color: rgb(179, 0, 0);
@@ -29,6 +30,7 @@ nav>a:hover {
     color: white;
 }
 
+/** Header styling **/
 .center-headers {
     text-align: center;
 }
@@ -44,6 +46,7 @@ h2 {
     color: rgb(255, 0, 0);
 }
 
+/** Button for restarting game **/ 
 button {
     border: 2px solid white;
     border-radius: 10px;
@@ -63,14 +66,17 @@ button:hover {
     color: black;
 }
 
+/** time expired heading **/
 #time-expired {
     margin-right: 200px;
 }
 
+/** moves made heading **/
 #moves-made {
     margin-left: 0px;
 }
 
+/** Container for the game area **/
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -79,6 +85,7 @@ button:hover {
     margin: auto;
 }
 
+/** All game cards **/
 .card {
     width: calc(20% - 10px);
     height: calc(20% - 10px);
@@ -89,10 +96,12 @@ button:hover {
     transform-style: preserve-3d;
 }
 
+/** Rotate game card **/
 .card.open {
     transform: rotateY(180deg);
 }
 
+/** Back and front side of game cards **/
 .front-card, .back-card {
     position: absolute;
     width: 100%;
@@ -102,10 +111,12 @@ button:hover {
     backface-visibility: hidden;
 }
 
+/** Rotate game card to see the images **/
 .front-card {
     transform: rotateY(180deg);
 }
 
+/** Form **/
 #container-form {
     flex-wrap: wrap;
     display: flex;
@@ -127,6 +138,7 @@ legend {
     margin-top: 20px;
 }
 
+/** Name and email in the form **/
 .name-email {
     width: 100%;
     height: 10%;
@@ -137,6 +149,7 @@ legend {
     position: relative;
 }
 
+/** Submit button in the form **/
 #submit {
     margin: 40px auto;
     width: 30%;
@@ -151,22 +164,30 @@ legend {
     color: white;
 }
 
+/** For screens smaller than 650px **/
 @media screen and (max-width: 650px) {
+
+    /** Form **/
     #container-form {
         height: 400px;
         width: 500px;
     }
 }
 
+/** For screens smaller than 500px **/
 @media screen and (max-width: 500px) {
+
+    /** Form **/
     #container-form {
         height: 400px;
         width: 400px;
     }
 }
 
-
+/** For screens smaller than 400px **/
 @media screen and (max-width: 400px) {
+
+    /** Form **/
     #container-form {
         height: 400px;
         width: 300px;
