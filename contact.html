@@ -20,15 +20,15 @@
     </header>
 
     <div id="container-form">
-        <form name="contactForm" onsubmit="return validateForm()" method="POST" action="/action_page.php"></form>
+        <form id="form" onsubmit="return validateForm()" name="contactForm" method="POST" action="/">
         <legend>Sign up to receive the lastest info on the president</legend>
 
 
-        <input type="text" name="name" id="full-name" class="name-email" placeholder="Full Name" required>
+        <input type="text" name="name" id="full-name" class="name-email" placeholder="Full Name">
  
-        <input type="email" name="email" id="email" class="name-email" placeholder="Email" required>
+        <input type="email" name="email" id="email" class="name-email" placeholder="Email">
         <input type="submit" id="submit" value="Submit">
-        
+    </form>
     </div>
     <script src="/assets/js/form.js"></script>
 </body>
