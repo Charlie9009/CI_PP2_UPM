@@ -17,7 +17,7 @@ nav {
     background-color: rgb(179, 0, 0);
 }
 
-nav > a {
+nav>a {
     float: left;
     padding: 5px;
     font-size: 200%;
@@ -25,7 +25,7 @@ nav > a {
     color: black;
 }
 
-nav > a:hover {
+nav>a:hover {
     color: white;
 }
 
@@ -149,4 +149,26 @@ legend {
 #submit:hover {
     background-color: black;
     color: white;
+}
+
+@media screen and (max-width: 650px) {
+    #container-form {
+        height: 400px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #container-form {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    #container-form {
+        height: 400px;
+        width: 300px;
+    }
 }
