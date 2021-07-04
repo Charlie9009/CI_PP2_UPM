@@ -202,6 +202,20 @@ legend {
     text-align: center;
 }
 
+/** 404 page styling **/
+#not-found-page-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#not-found-page-div > h1 {
+    font-size: 4vw;
+}
+
 /** For screens smaller than 650px **/
 @media screen and (max-width: 650px) {
 
@@ -271,6 +285,11 @@ legend {
     #container-form {
         height: 400px;
         width: 400px;
+    }
+    
+    /** 404 page styling **/
+    #not-found-page-div > h1 {
+        font-size: 150%;
     }
 }
 
