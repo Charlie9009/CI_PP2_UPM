@@ -31,6 +31,24 @@ nav>a:hover {
     color: white;
 }
 
+/** Extra styling for nav bar when on Game page **/
+#game-nav {
+    border-bottom: 3px solid black;
+    margin-bottom: 1px;
+}
+
+/** Extra styling for nav bar when on api page **/
+#api-nav {
+    border-bottom: 3px solid black;
+    margin-bottom: 1px;
+}
+
+/** Extra styling for nav bar when on contact page **/
+#contact-nav {
+    border-bottom: 3px solid black;
+    margin-bottom: 1px;
+}
+
 /** Header styling **/
 .center-headers {
     text-align: center;
