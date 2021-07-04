@@ -253,6 +253,6 @@ legend {
     /** Form **/
     #container-form {
         height: 400px;
-        width: 300px;
+        width: 100vw;
     }
 }
