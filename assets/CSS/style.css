@@ -175,13 +175,13 @@ legend {
 #fetch {
     display: flex;
     flex-wrap: wrap;
-    margin: 50px;
-    justify-content: center;
-    align-content: center;
+    margin-top: 50px;
 }
 
 #inner-fetch-user {
-    margin: 50px;
+    flex: 33%;
+    margin-top: 50px;
+    text-align: center;
 }
 
 /** For screens smaller than 650px **/
@@ -202,6 +202,11 @@ legend {
     #container-form {
         height: 400px;
         width: 500px;
+    }
+
+    /** API fetch page **/
+    #inner-fetch-user {
+        flex: 50%;
     }
 }
 
@@ -233,6 +238,11 @@ legend {
     .grid {
         flex-direction: column;
         height: 400px;
+    }
+
+    /** API fetch page **/
+    #inner-fetch-user {
+        flex: 100%;
     }
 
     /** Form **/
