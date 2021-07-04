@@ -216,6 +216,15 @@ legend {
     font-size: 4vw;
 }
 
+/** Home page button on 404 page **/
+#not-found-page-div > h1 > a {
+    color: white;
+}
+
+#not-found-page-div > h1 > a:hover {
+    color: red;
+}
+
 /** For screens smaller than 650px **/
 @media screen and (max-width: 650px) {
 
