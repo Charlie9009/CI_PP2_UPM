@@ -167,6 +167,18 @@ legend {
     color: white;
 }
 
+#fetch {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+#inner-fetch-user {
+    margin: 50px;
+}
+
 /** For screens smaller than 650px **/
 @media screen and (max-width: 650px) {
     /** Game container **/

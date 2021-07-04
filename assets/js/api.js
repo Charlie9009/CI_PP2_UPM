@@ -11,7 +11,7 @@ function fetchData() {
     const html = data.data
     .map(user => {
       return `
-      <div class="user">
+      <div id="inner-fetch-user">
       <p><img src="${user.avatar}" alt="Picture of user" /></p>
       <p>Last Name: ${user.last_name}</p>
       <p>Email: ${user.email}</p>
