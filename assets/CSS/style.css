@@ -186,10 +186,16 @@ legend {
 
 /** For screens smaller than 650px **/
 @media screen and (max-width: 650px) {
+
+    /** h1 header **/
+    h1 {
+        margin-top: 20px;
+    }
+
     /** Game container **/
     .grid {
         height: 500px;
-        width: 500px;
+        width: 100vw;
     }
 
     /** Form **/
@@ -205,29 +211,28 @@ legend {
     /** Nav **/
     nav>a {
         padding: 5px;
-        font-size: 150%;
+        font-size: 125%;
     }
 
     /** Header styling **/
     h1 {
-        margin-top: 25px;
-        font-size: 150%;
+        margin-top: 20px;
+        font-size: 100%;
     }
     
     h2 {
-        font-size: 125%;
+        font-size: 90%;
     }
     
     /** Button for restarting game **/ 
     button {
-        font-size: 100%;
+        font-size: 80%;
     }
 
     /** Game container **/
     .grid {
         flex-direction: column;
         height: 400px;
-        width: 400px;
     }
 
     /** Form **/
@@ -243,7 +248,6 @@ legend {
     /** Game container **/
     .grid {
         height: 350px;
-        width: 350px;
     }
 
     /** Form **/
