@@ -231,6 +231,13 @@ legend {
     height: 50px;
     bottom: 0;
     position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.inner-footer-content {
+    list-style-type: none;
 }
 
 /** For screens smaller than 650px **/
