@@ -240,6 +240,7 @@ legend {
 
 .inner-footer-content {
     list-style-type: none;
+    font-size: 120%;
 }
 
 /** Footer links **/
@@ -281,6 +282,11 @@ legend {
     
     #inner-fetch-user {
         flex: 50%;
+    }
+
+    /** Footer **/
+    .inner-footer-content {
+        font-size: 100%;
     }
 }
 
@@ -328,6 +334,10 @@ legend {
     /** 404 page styling **/
     #not-found-page-div > h1 {
         font-size: 150%;
+    }
+
+    #footer-container > ol > li {
+        display: none;
     }
 }
 
