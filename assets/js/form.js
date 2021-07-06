@@ -16,14 +16,14 @@ function validateForm() {
 }
 
 function sendEmail() {
-    document.getElementById('form').addEventListener('submit', function(event) {
+    document.getElementById('form').addEventListener('submit', function (event) {
         event.preventDefault();
         // ID from emailJS
         emailjs.init('user_ijKY6mblVUbu5AeWdbYlk')
-        emailjs.sendForm('contact_service', 'contact_form', this)
-            .then(function() {
-                alert('Your form was sent!');
-            })
+        emailjs.send("gmail", "us_memory", {
+            user_name: form.name.value,
+            user_email: form.email.value,
+        });
+        alert('Your form was sent!')
     });
-}
-
+};
