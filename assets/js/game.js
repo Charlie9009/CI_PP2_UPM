@@ -99,5 +99,12 @@ function startTimer() {
 }
 
 function resetGame() {
-    location.reload();
-}
+    let allCards = document.querySelector('.grid');
+    for (var i = 0; i < card.length; i++) {
+        allCards.innerHTML = "";
+        [].forEach.call(cards, function(allCards) {
+            allCards.appendChild(allCards);
+        });
+        cards[i].classList.remove("open", "show", "disabled");
+     }
+};
