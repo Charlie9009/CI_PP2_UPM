@@ -11,6 +11,7 @@ body, html {
     width: 100vw;
     height: 100vh;
     display: inline-table;
+    position: relative;
 }
 
 /** Nav styling **/
@@ -298,6 +299,10 @@ legend {
     }
 
     /** Footer **/
+    footer {
+        margin-top: 60px;
+    }
+
     .inner-footer-content {
         font-size: 100%;
     }
@@ -349,8 +354,12 @@ legend {
         font-size: 150%;
     }
 
+    .inner-footer-content {
+        font-size: 80%;
+    }
+
     #footer-container > ol > li {
-        display: none;
+        
     }
 }
 
@@ -366,5 +375,9 @@ legend {
     #container-form {
         height: 400px;
         width: 100vw;
+    }
+
+    .inner-footer-content {
+        font-size: 70%;
     }
 }
