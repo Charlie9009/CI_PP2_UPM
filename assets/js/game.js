@@ -109,4 +109,7 @@ function resetGame() {
      }
      moves = 0;
      counter.innerHTML = moves;
+
+     timer.innerHTML = '0 mins 0 secs';
+     clearInterval(interval);
 };
