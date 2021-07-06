@@ -107,4 +107,6 @@ function resetGame() {
         });
         cards[i].classList.remove("open", "show", "disabled");
      }
+     moves = 0;
+     counter.innerHTML = moves;
 };
