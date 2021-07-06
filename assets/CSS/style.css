@@ -110,6 +110,7 @@ button:hover {
     width: 50%;
     height: 100px;
     text-align: center;
+    display: none;
 }
 
 /** Container for the game area **/
