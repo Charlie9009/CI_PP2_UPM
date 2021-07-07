@@ -52,11 +52,12 @@ function whenCardsMatch() {
     // If cards match remove the eventlisteners
     firstCardChoice.removeEventListener('click', flipCard);
     secondCardChoice.removeEventListener('click', flipCard);
+
     firstCardChoice.classList.add('match');
     secondCardChoice.classList.add('match');
     var div = document.querySelector('.match')
-    if (div.classList.contains('match') ) {
-    wonCards.push(div); 
+    if (div.classList.contains('match')) {
+        wonCards.push(div);
     }
     gameWon();
 }
@@ -83,9 +84,9 @@ function moveCounter() {
     moves++;
     counter.innerHTML = moves;
     //start timer on first click
-    if(moves == 1){
+    if (moves == 1) {
         second = 0;
-        minute = 0; 
+        minute = 0;
         hour = 0;
         startTimer();
     }
@@ -97,7 +98,7 @@ var timer = document.querySelector('#time-expired');
 var interval;
 
 function startTimer() {
-    interval = setInterval(function() {
+    interval = setInterval(function () {
         timer.innerHTML = minute + 'mins' + second + 'secs';
         second++;
         if (second == 60) {
@@ -111,20 +112,21 @@ function resetGame() {
     let allCards = document.querySelector('.grid');
     for (var i = 0; i < card.length; i++) {
         allCards.innerHTML = "";
-        [].forEach.call(cards, function(item) {
+        [].forEach.call(cards, function (item) {
             allCards.appendChild(item);
         });
         cards[i].classList.remove("open", "show", "disabled");
-     }
-     moves = 0;
-     counter.innerHTML = moves;
+    }
+    moves = 0;
+    counter.innerHTML = moves;
 
-     timer.innerHTML = '0 mins 0 secs';
-     clearInterval(interval);
+    timer.innerHTML = '0 mins 0 secs';
+    clearInterval(interval);
 };
 
 function gameWon() {
     if (wonCards.length === 10) {
-        console.log('yeeeee')
+        clearInterval(interval);
+        finalTime = timer.innerHTML;
     }
 }
