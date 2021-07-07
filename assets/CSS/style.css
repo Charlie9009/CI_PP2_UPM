@@ -103,7 +103,15 @@ button:hover {
 
 /** Modal Win screen **/
 .modal {
-    display: none;
+    margin: -100px auto -100px auto;
+    background-color: rgb(133, 23, 23);
+    opacity: 0.9;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    display: block;
+    z-index: 1;
+    position: relative;
 }
 
 .show-modal {
@@ -116,6 +124,15 @@ button:hover {
     display: block;
     z-index: 1;
     position: relative;
+}
+
+#modal-header {
+    font-size: 160%;
+}
+
+.modal-time-moves {
+    font-size: 130%;
+    margin: 5px auto;
 }
 
 /** Container for the game area **/
