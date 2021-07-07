@@ -115,7 +115,7 @@ function resetGame() {
         [].forEach.call(cards, function (item) {
             allCards.appendChild(item);
         });
-        cards[i].classList.remove("open", "show", "disabled");
+        cards[i].classList.remove('open', 'show', 'disabled', 'match');
     }
     moves = 0;
     counter.innerHTML = moves;
@@ -130,5 +130,7 @@ function gameWon() {
     if (wonCards.length === 10) {
         clearInterval(interval);
         finalTime = timer.innerHTML;
+
+        modal.classList.add('show-modal')
     }
 }
