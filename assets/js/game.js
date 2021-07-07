@@ -37,7 +37,7 @@ function flipCard() {
 function checkForMatch() {
     // Checking if the cards match
     if (firstCardChoice.dataset.name === secondCardChoice.dataset.name) {
-        disableCardsWhenMatch();
+        whenCardsMatch();
     } else {
         // When cards don't match flip them back after a timeout
         unflipCardsWhenWrong();
@@ -48,7 +48,7 @@ function checkForMatch() {
 
 var wonCards = []
 
-function disableCardsWhenMatch() {
+function whenCardsMatch() {
     // If cards match remove the eventlisteners
     firstCardChoice.removeEventListener('click', flipCard);
     secondCardChoice.removeEventListener('click', flipCard);
