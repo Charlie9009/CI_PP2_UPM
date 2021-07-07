@@ -125,6 +125,8 @@ function resetGame() {
 };
 
 function gameWon() {
+    let modal = document.getElementById('myModal');
+    
     if (wonCards.length === 10) {
         clearInterval(interval);
         finalTime = timer.innerHTML;
