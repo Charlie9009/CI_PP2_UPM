@@ -58,6 +58,7 @@ function disableCardsWhenMatch() {
     if (div.classList.contains('match') ) {
     wonCards.push(div); 
     }
+    gameWon();
 }
 
 function unflipCardsWhenWrong() {
@@ -121,3 +122,9 @@ function resetGame() {
      timer.innerHTML = '0 mins 0 secs';
      clearInterval(interval);
 };
+
+function gameWon() {
+    if (wonCards.length === 10) {
+        console.log('yeeeee')
+    }
+}
