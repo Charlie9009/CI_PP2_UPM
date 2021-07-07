@@ -73,12 +73,7 @@ function unflipCardsWhenWrong() {
     }, 1000);
 }
 
-(function shuffleCards() {
-    cards.forEach(card => {
-        let randomPosition = Math.floor(Math.random() * 12);
-        card.style.order = randomPosition;
-    });
-})();
+
 
 function moveCounter() {
     moves++;
