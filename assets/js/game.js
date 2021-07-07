@@ -46,10 +46,18 @@ function checkForMatch() {
     moveCounter();
 }
 
+var wonCards = []
+
 function disableCardsWhenMatch() {
     // If cards match remove the eventlisteners
     firstCardChoice.removeEventListener('click', flipCard);
-    secondCardChoice.removeEventListener('click', flipCard)
+    secondCardChoice.removeEventListener('click', flipCard);
+    firstCardChoice.classList.add('match');
+    secondCardChoice.classList.add('match');
+    var div = document.querySelector('.match')
+    if (div.classList.contains('match') ) {
+    wonCards.push(div); 
+    }
 }
 
 function unflipCardsWhenWrong() {
