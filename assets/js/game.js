@@ -73,7 +73,12 @@ function unflipCardsWhenWrong() {
     }, 1000);
 }
 
-
+(function shuffleCards() {
+    cards.forEach(card => {
+        let randomPosition = Math.floor(Math.random() * 12);
+        card.style.order = randomPosition;
+    });
+})();
 
 function moveCounter() {
     moves++;
@@ -127,5 +132,8 @@ function gameWon() {
         finalTime = timer.innerHTML;
 
         modal.classList.add('show-modal')
+
+        document.getElementById('yourTime').innerHTML = finalTime
+        document.getElementById('yourMoves').innerHTML = moves
     }
 }
