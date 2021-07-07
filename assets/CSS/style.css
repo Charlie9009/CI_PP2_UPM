@@ -103,15 +103,19 @@ button:hover {
 
 /** Modal Win screen **/
 .modal {
-    margin: 0 auto;
-    align-content: center;
-    justify-content: center;
+    display: none;
+}
+
+.show-modal {
+    margin: -100px auto -100px auto;
     background-color: rgb(133, 23, 23);
     opacity: 0.9;
     width: 50%;
-    height: 150px;
+    height: 200px;
     text-align: center;
-    display: none;
+    display: block;
+    z-index: 1;
+    position: relative;
 }
 
 /** Container for the game area **/
@@ -123,6 +127,7 @@ button:hover {
     margin: -20px auto 0;
     align-content: center;
     justify-content: center;
+    z-index: 0;
 }
 
 /** All game cards **/
