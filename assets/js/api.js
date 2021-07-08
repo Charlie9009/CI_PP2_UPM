@@ -1,14 +1,15 @@
+/**
+ * The api.js is used by the user.html file to fetch data from the webpage 'https://reqres.in'.
+ * The GET list users was used to fetch the data and to display it to the users screen. 
+ */
+
 function fetchData() {
   fetch('https://reqres.in/api/users')
   .then(response => {
-    if (!response.ok) {
-      throw Error('ERROR');
-    }
     return response.json();
   })
   .then(data => {
-
-    const html = data.data
+    const userList = data.data
     .map(user => {
       return `
       <div id="inner-fetch-user">
@@ -19,11 +20,8 @@ function fetchData() {
       `;
     })
     .join('');
-    document.querySelector('#fetch').insertAdjacentHTML('afterbegin', html);
+    document.querySelector('#fetch').insertAdjacentHTML('afterbegin', userList);
   })
-  .catch(error => {
-    console.log(error);
-  });
 }
 
 fetchData();
