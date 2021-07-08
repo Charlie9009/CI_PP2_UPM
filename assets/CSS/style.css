@@ -202,9 +202,10 @@ form {
     position: relative;
 }
 
-legend {
+#form-header {
     font-size: 150%;
     margin-top: 20px;
+    color: white;
 }
 
 /** Name and email in the form **/
