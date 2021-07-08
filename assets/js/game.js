@@ -109,19 +109,7 @@ function startTimer() {
 }
 
 function resetGame() {
-    let allCards = document.querySelector('.grid');
-    for (var i = 0; i < card.length; i++) {
-        allCards.innerHTML = "";
-        [].forEach.call(cards, function (item) {
-            allCards.appendChild(item);
-        });
-        cards[i].classList.remove('open', 'show', 'disabled', 'match');
-    }
-    moves = 0;
-    counter.innerHTML = moves;
-
-    timer.innerHTML = '0 mins 0 secs';
-    clearInterval(interval);
+    location.reload();
 };
 
 function gameWon() {
@@ -136,4 +124,9 @@ function gameWon() {
         document.getElementById('yourTime').innerHTML = finalTime
         document.getElementById('yourMoves').innerHTML = moves
     }
+}
+
+function closeModal() {
+    let modal = document.getElementById('myModal');
+    modal.classList.remove('show-modal');
 }
