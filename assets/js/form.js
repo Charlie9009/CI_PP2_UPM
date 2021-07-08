@@ -1,3 +1,8 @@
+/**
+ * The form.js is used by the contact.html file to validate the form.
+ * It also uses emailJS as a tool to send the filled out form to the site owners gmail.
+ */
+
 const name = document.getElementById('full-name');
 const email = document.getElementById('email');
 const form = document.getElementById('form');

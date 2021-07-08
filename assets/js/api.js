@@ -25,7 +25,7 @@ function fetchData() {
     */
     .join('');
     document.querySelector('#fetch').insertAdjacentHTML('afterbegin', userList);
-  })
+  });
 }
 
 fetchData();
