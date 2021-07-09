@@ -140,6 +140,7 @@ button:hover {
 .modal-time-moves {
     font-size: 150%;
     margin: 5px auto;
+    letter-spacing: 5px;
 }
 
 /** Container for the game area **/
