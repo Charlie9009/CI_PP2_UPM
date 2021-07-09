@@ -46,7 +46,7 @@ nav > a:hover {
 
 /** Extra styling for nav bar when on api page **/
 
-#api-nav {
+#users-nav {
     border-bottom: 3px solid black;
     margin-bottom: 1px;
 }
@@ -105,6 +105,8 @@ button:hover {
 
 #time-expired {
     width: 100%;
+    letter-spacing: 10px;
+    margin-left: 5px;
 }
 
 /** moves made heading **/
