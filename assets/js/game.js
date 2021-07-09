@@ -85,6 +85,9 @@ function unflipCardsWhenWrong() {
     }, 1000);
 }
 
+/**
+ * A shuffleCards function is used to shuffle the cards so they will always be random.
+ */
 (function shuffleCards() {
     cards.forEach(card => {
         let randomPosition = Math.floor(Math.random() * 12);
@@ -92,17 +95,19 @@ function unflipCardsWhenWrong() {
     });
 })();
 
-// For the move counter
+// Variables for the move counter
 let moves = 0;
 let counter = document.querySelector('#moves-made');
 
+/**
+ * The moveCounter function counts one move to the html everytime when two cards have been flipped.
+ * It also includes if 1 move has been made the timer will start.
+ */
 function moveCounter() {
     moves++;
     counter.innerHTML = moves;
     //start timer on first click
     if (moves == 1) {
-        second = 0;
-        minute = 0;
         startTimer();
     }
 }
