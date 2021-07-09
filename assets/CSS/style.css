@@ -252,6 +252,7 @@ form {
     flex: 33%;
     margin-top: 50px;
     text-align: center;
+    color: rgb(255, 21, 21);
 }
 
 /** 404 page styling **/
