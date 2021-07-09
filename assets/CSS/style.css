@@ -19,7 +19,6 @@ body, html {
 }
 
 /** Nav styling **/
-
 nav {
     overflow: hidden;
     background-color: rgb(148, 42, 42);
@@ -38,28 +37,24 @@ nav > a:hover {
 }
 
 /** Extra styling for nav bar when on Game page **/
-
 #game-nav {
     border-bottom: 3px solid white;
     margin-bottom: 1px;
 }
 
 /** Extra styling for nav bar when on api page **/
-
 #users-nav {
     border-bottom: 3px solid white;
     margin-bottom: 1px;
 }
 
 /** Extra styling for nav bar when on contact page **/
-
 #contact-nav {
     border-bottom: 3px solid white;
     margin-bottom: 1px;
 }
 
 /** Header styling **/
-
 .center-headers {
     text-align: center;
 }
@@ -80,7 +75,6 @@ h2 {
 }
 
 /** Button for restarting game **/
-
 button {
     border: 2px solid white;
     border-radius: 10px;
@@ -102,7 +96,6 @@ button:hover {
 }
 
 /** time expired heading **/
-
 #time-expired {
     width: 100%;
     letter-spacing: 10px;
@@ -110,13 +103,11 @@ button:hover {
 }
 
 /** moves made heading **/
-
 #moves-made {
     width: 100%;
 }
 
 /** Modal Win screen **/
-
 .modal {
     display: none;
 }
@@ -144,20 +135,18 @@ button:hover {
 }
 
 /** Container for the game area **/
-
 .grid {
     display: flex;
     flex-wrap: wrap;
     height: 600px;
     width: 600px;
-    margin: -20px auto 0;
+    margin: -80px auto 0;
     align-content: center;
     justify-content: center;
     z-index: 0;
 }
 
 /** All game cards **/
-
 .card {
     width: calc(20% - 10px);
     height: calc(20% - 10px);
@@ -169,13 +158,11 @@ button:hover {
 }
 
 /** Rotate game card **/
-
 .card.open {
     transform: rotateY(180deg);
 }
 
 /** Back and front side of game cards **/
-
 .front-card, .back-card {
     position: absolute;
     width: 100%;
@@ -186,13 +173,25 @@ button:hover {
 }
 
 /** Rotate game card to see the images **/
-
 .front-card {
     transform: rotateY(180deg);
 }
 
-/** Form **/
+/** Users page, Styling for fetched content **/ 
+#fetch {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#inner-fetch-user {
+    flex: 33%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 125%;
+    color: white;
+}
+
+/** Contact page, Form **/
 #container-form {
     flex-wrap: wrap;
     display: flex;
@@ -216,7 +215,6 @@ form {
 }
 
 /** Name and email in the form **/
-
 .name-email {
     width: 100%;
     height: 10%;
@@ -240,20 +238,6 @@ form {
 #submit:hover {
     background-color: black;
     color: white;
-}
-
-/** Styling for fetched content **/ 
-#fetch {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-#inner-fetch-user {
-    flex: 33%;
-    margin-top: 50px;
-    text-align: center;
-    color: rgb(255, 21, 21);
 }
 
 /** 404 page styling **/
@@ -290,6 +274,7 @@ form {
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .inner-footer-content {
@@ -336,6 +321,7 @@ form {
     .grid {
         height: 500px;
         width: 100vw;
+        margin-top: -70px;
     }
 
     /** Form **/
@@ -351,6 +337,7 @@ form {
 
     #inner-fetch-user {
         flex: 50%;
+        margin-top: 0;
     }
 
     /** Footer **/
@@ -399,6 +386,7 @@ form {
     .grid {
         flex-direction: column;
         height: 400px;
+        margin-top: -20px;
     }
 
     #inner-fetch-user {
