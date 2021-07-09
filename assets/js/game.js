@@ -30,7 +30,7 @@ function flipCard() {
     } else {
         flippedCard = false;
         secondCardChoice = this;
-
+// When two cards have been flipped call the function checkForMatch.
         checkForMatch();
     }
 }
