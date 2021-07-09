@@ -10,7 +10,6 @@ window.onload = function addClickToCards() {
 
 // For locking the board function
 let lockTheBoard = false;
-
 let flippedCard = false;
 let firstCardChoice, secondCardChoice;
 
@@ -20,8 +19,6 @@ function flipCard() {
     if (this === firstCardChoice) return;
 
     this.classList.toggle('open');
-    this.classList.toggle('show');
-    this.classList.toggle('disabled');
 
     if (!flippedCard) {
         flippedCard = true;
