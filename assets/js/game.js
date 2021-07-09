@@ -117,6 +117,10 @@ var second = 0, minute = 0;
 var timer = document.querySelector('#time-expired');
 var interval;
 
+/**
+ * The startTimer function sets the interval and how the timer function. It gives an output of minutes and seconds.
+ * It counts in 1000ms.
+ */
 function startTimer() {
     interval = setInterval(function () {
         timer.innerHTML = minute + ' ' + 'mins' + ' ' + second + ' ' + 'secs';
@@ -128,10 +132,11 @@ function startTimer() {
     }, 1000);
 }
 
-function resetGame() {
-    location.reload();
-};
-
+/**
+ * The gameWon function gets the div with a modal id.
+ * If the wonCards are equal to all cards which is(10 pairs, 20 cards) a class of 'show-modal' is added to the modal div.
+ * This fires the div making it show up on the screen with the final time now stoped and total moves made.
+ */
 function gameWon() {
     let modal = document.getElementById('myModal');
     
@@ -146,7 +151,15 @@ function gameWon() {
     }
 }
 
+/**
+ * This function gets the modal and removes the class of 'show-modal' removing the modal.
+ */
 function closeModal() {
     let modal = document.getElementById('myModal');
     modal.classList.remove('show-modal');
 }
+
+// This function is tied to the resetbutton and it reloads the page.
+function resetGame() {
+    location.reload();
+};
