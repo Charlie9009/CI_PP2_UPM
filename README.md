@@ -69,41 +69,129 @@ refresh-toc -->
 
 ### Target audience
 
+The site is targeted towards everyone who wants to challenge their
+themselves.
+
 ### User stories
 
 #### User
 
-* As a user I want an easy website where I can find the game fast.
+1. As a user I want an easy website where I can find the game fast.
 
-* As a user I want to be able to play on desktop, tablet and mobile devices.
+2. As a user I want to be able to see which page I am on.
 
-* As a user I want to challenge my brain.
+3. As a user I want to be able to play on desktop, tablet and mobile devices.
 
-* As a user I want to see how much time has passed in real-time while playing.
+4. As a user I want to challenge my brain.
 
-* As a user I want to be able to see the amount of moves I've made.
+5. As a user I want to see how much time has passed in real-time while playing.
 
-* As a user I want to see a pop up modal with time expired and moves made when completing the game.
+6. As a user I want to be able to see the amount of moves I have made.
+
+7. As a user I want to see a pop up modal with time expired and moves made when completing the game.
+
+8. As a user I want to be able to drop my info for updates.
+
+9. As a user I want to see other user who have played the game.
+
+10. As a user I want to know the site owners process making the site.
+
+11. As a user I want to see the latest updates from the White House.
+
+12. As a user I want a reset button if I want to reset the game.
 
 #### Site owner goals
 
-* I want the site to be visually appeasing.
+13. I want the site to be visually appeasing.
 
-* I want the user to be able to challenge themselves.
+14. I want the user to be able to challenge themselves.
 
-* I want the user to have fun.
+15. I want the user to have fun.
 
 ### Design
+
+* Because my site was going to focus on a game with American presidents I wanted to have a design with an American touch to it.
+Therefor I chose the US flag for my background as well as the background for my game cards.
 
 #### Colors
 
 #### Fonts
 
+* I went with the font Bona Nova because I like how it runs and looks throughout the site. For the backup I picked Sans-serif.
+
 ### Wireframes
 
 ## Features
 
+* **The navigation bar and footer**
+
+* The navigation bar and the footer are present on all pages and are responsive. The navigation bar shows links to Game, Users and
+Contact. There is a feature of a border bottom to show up underneath the respective link to the page the user is on.
+This will help the user identify witch page they are on.
+
+* The footer contains a link to my github page if the user wants to know more about the project. It also contains a link to the White House homepage if the user wants to read about the latest news regarding the White House.
+<img>
+
+### User stories covered by this feature:
+
+1. As a user I want an easy website where I can find the game fast.
+2. As a user I want to be able to see which page I am on.
+10. As a user I want to know the site owners process making the site.
+11. As a user I want to see the latest updates from the White House.
+
+* **Info area**
+
+* Here is the h1 header to tell the user they are on the “US president memory” page.
+
+* There is also a timer feature for the game as well as a move counter.
+<img>
+
 ### User stories covered by feature:
+
+5. As a user I want to see how much time has passed in real-time while playing.
+6. As a user I want to be able to see the amount of moves I have made.
+12. As a user I want a reset button if I want to reset the game.
+
+* **Game area**
+
+* The game area features the memory game. The game contains 20 cards with 10 presidents. The game’s goal is to pair together 2 cards with the same image (president), the game is over when all the cards have been paired together.
+<img>
+
+### User stories covered by feature:
+
+1. As a user I want an easy website where I can find the game fast.
+3. As a user I want to be able to play on desktop, tablet and mobile devices.
+4. As a user I want to challenge my brain.
+
+* **Congratulations Modal**
+
+* When a user completes the game a modal shows up to congratulate the user the game is over along with the final time and how many moves were done ass well as a reset button if the user wants to play again.
+<img>
+
+### User stories covered by feature:
+
+5. As a user I want to see how much time has passed in real-time while playing.
+6. As a user I want to be able to see the amount of moves I have made.
+7. As a user I want to see a pop up modal with time expired and moves made when completing the game.
+12. As a user I want a reset button if I want to reset the game.
+
+* **User page**
+
+* On the user page A fetch function was used to get data to post some users on the page.
+<img>
+
+### User stories covered by feature:
+
+9. As a user I want to see other user who have played the game.
+
+* **Contact page**
+
+* On the Contact page there is a form where a user can fill out their name and email if they would like to get updates. EmailJS has been used to send this data to the site owners email.
+<img>
+
+### User stories covered by feature:
+
+8. As a user I want to be able to drop my info for updates.
 
 ### Features left to implement
 
@@ -111,7 +199,25 @@ refresh-toc -->
 
 ### Languages
 
+* HTML
+
+* CSS
+
+* JAVASCRIPT
+
 ## Libraries and programs
+
+* EmailJS was used so the filled out forms are being sent to the site owner.
+
+* Virtual Studio Code was used to write the code.
+
+* The Git Bash terminal within VS Code was used to commit and push to Github.
+
+* Github is used to store the code.
+
+* Balsamiq was used to create the project wireframes.
+
+* WC3 Validator, Jigsaw W3 Validator, Wave Validator, Lighthouse and ami.responsivedesign were all used to test the website.
 
 ## Testing
 
@@ -128,6 +234,9 @@ refresh-toc -->
 ## Further testing
 
 ## Testing user stories
+
+|                   Feature                       |        Action                   |                 Expected result           |   Actual result   |
+|                 :----------:                    |        :------------:           |        :-----------------:                | :---------------: |
 
 ## Bugs
 
