@@ -2,6 +2,10 @@
 let card = document.getElementsByClassName('card');
 let cards = [...card];
 
+/**
+ * A window onload was used to loop thru the cards and give them each an eventListener.
+ * I want the eventListener to listen out for clicks so the flipCard can fire if cards are clicked.
+ */
 window.onload = function addClickToCards() {
     for (var i = 0; i < cards.length; i++) {
         cards[i].addEventListener('click', flipCard);
