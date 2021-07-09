@@ -214,11 +214,20 @@ form {
     color: white;
 }
 
+.center-label {
+    text-align: center;
+    margin: 40px auto 0;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 150%;
+}
+
 /** Name and email in the form **/
 .name-email {
     width: 100%;
     height: 10%;
-    margin-top: 50px;
+    margin-top: px;
     text-align: center;
     font-size: 100%;
     border-radius: 10px;
