@@ -30,31 +30,31 @@ nav > a {
     padding: 5px;
     font-size: 200%;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav > a:hover {
-    color: white;
+    color: black;
 }
 
 /** Extra styling for nav bar when on Game page **/
 
 #game-nav {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
     margin-bottom: 1px;
 }
 
 /** Extra styling for nav bar when on api page **/
 
 #users-nav {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
     margin-bottom: 1px;
 }
 
 /** Extra styling for nav bar when on contact page **/
 
 #contact-nav {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
     margin-bottom: 1px;
 }
 
