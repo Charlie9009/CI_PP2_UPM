@@ -69,7 +69,10 @@ function whenCardsMatch() {
 }
 
 /**
- * 
+ * When two cards dont match the cards need to flip back so the user can continue the game.
+ * To keep the user from being able to keep opening cards I lock the so no more than two cards can be open.
+ * To flip the cards back I remove the class 'open'. 
+ * A timeout is also set for 1000ms so the user can see the cards.
  */
 function unflipCardsWhenWrong() {
     lockTheBoard = true;
