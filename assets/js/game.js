@@ -47,10 +47,15 @@ function checkForMatch() {
     moveCounter();
 }
 
+// An empy array to put matched cards into
 var wonCards = []
 
+/**
+ * If cards match remove the click eventlisteners to keep the cards from flipping back.
+ * If cards match also add a new class of 'match' to identify which cards have been won.
+ * If divs have the class 'match' push them to the empty wonCards array.
+ */ 
 function whenCardsMatch() {
-    // If cards match remove the eventlisteners
     firstCardChoice.removeEventListener('click', flipCard);
     secondCardChoice.removeEventListener('click', flipCard);
 
@@ -63,6 +68,9 @@ function whenCardsMatch() {
     gameWon();
 }
 
+/**
+ * 
+ */
 function unflipCardsWhenWrong() {
     lockTheBoard = true;
 
