@@ -2,9 +2,12 @@
 let card = document.getElementsByClassName('card');
 let cards = [...card];
 
-for (var i = 0; i < cards.length; i++) {
-    cards[i].addEventListener('click', flipCard);
-};
+window.onload = function addClickToCards() {
+    for (var i = 0; i < cards.length; i++) {
+        cards[i].addEventListener('click', flipCard);
+    };
+  };
+
 // For locking the board function
 let lockTheBoard = false;
 
@@ -77,10 +80,11 @@ function unflipCardsWhenWrong() {
     });
 })();
 
-function moveCounter() {
-    // For the move counter
+// For the move counter
 let moves = 0;
 let counter = document.querySelector('#moves-made');
+
+function moveCounter() {
     moves++;
     counter.innerHTML = moves;
     //start timer on first click
