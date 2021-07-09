@@ -7,9 +7,6 @@ for (var i = 0; i < cards.length; i++) {
 };
 // For locking the board function
 let lockTheBoard = false;
-// For the move counter
-let moves = 0;
-let counter = document.querySelector('#moves-made');
 
 let flippedCard = false;
 let firstCardChoice, secondCardChoice;
@@ -81,13 +78,15 @@ function unflipCardsWhenWrong() {
 })();
 
 function moveCounter() {
+    // For the move counter
+let moves = 0;
+let counter = document.querySelector('#moves-made');
     moves++;
     counter.innerHTML = moves;
     //start timer on first click
     if (moves == 1) {
         second = 0;
         minute = 0;
-        hour = 0;
         startTimer();
     }
 }
