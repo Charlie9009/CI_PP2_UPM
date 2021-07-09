@@ -349,6 +349,10 @@ form {
         margin-top: 0;
     }
 
+    #submit {
+        margin: 20px auto;
+    }
+
     /** Footer **/
     footer {
         margin-top: 60px;
