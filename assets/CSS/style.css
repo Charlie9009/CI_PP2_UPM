@@ -191,6 +191,15 @@ button:hover {
     color: white;
 }
 
+#fetch-text-area {
+    background-color: rgb(148, 42, 42);
+    height: 40%;
+    width: 90%;
+    margin: 0 auto;
+    opacity: 0.9;
+    flex: 33%;
+}
+
 /** Contact page, Form **/
 #container-form {
     flex-wrap: wrap;
@@ -338,6 +347,10 @@ form {
         width: 500px;
     }
 
+    #submit {
+        margin: 20px auto;
+    }
+
     /** API fetch page **/
     #fetch {
         margin: 20px auto;
@@ -348,8 +361,9 @@ form {
         margin-top: 0;
     }
 
-    #submit {
-        margin: 20px auto;
+    #fetch-text-area {
+        margin-bottom: 35px;
+        height: 30%;
     }
 
     /** Footer **/
@@ -403,7 +417,12 @@ form {
 
     #inner-fetch-user {
         flex: 100%;
-        margin: 30px auto;
+    }
+
+    #fetch-text-area {
+        margin-bottom: 35px;
+        height: 30%;
+        width: 100%;
     }
 
     /** Form **/

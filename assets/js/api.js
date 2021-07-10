@@ -15,8 +15,10 @@ function fetchData() {
       return `
       <div id="inner-fetch-user">
       <p><img src="${user.avatar}" alt="Picture of user" /></p>
+      <div id="fetch-text-area">
       <p>Last Name: ${user.last_name}</p>
       <p>Email: ${user.email}</p>
+      </div>
       </div>
       `;
     })
