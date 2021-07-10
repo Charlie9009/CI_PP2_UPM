@@ -6,11 +6,16 @@ let cards = [...card];
  * A window onload was used to loop thru the cards and give them each an eventListener.
  * I want the eventListener to listen out for clicks so the flipCard can fire if cards are clicked.
  */
-window.onload = function addClickToCards() {
+window.onload = function shuffleAndFlipCards() {
     for (var i = 0; i < cards.length; i++) {
         cards[i].addEventListener('click', flipCard);
+
+        cards.forEach(card => {
+            let randomPosition = Math.floor(Math.random() * 20);
+            card.style.order = randomPosition;
+        });
     };
-  };
+}
 
 // For locking the board function
 let lockTheBoard = false;
@@ -30,7 +35,7 @@ function flipCard() {
     } else {
         flippedCard = false;
         secondCardChoice = this;
-// When two cards have been flipped call the function checkForMatch.
+        // When two cards have been flipped call the function checkForMatch.
         checkForMatch();
     }
 }
@@ -54,7 +59,7 @@ var wonCards = []
  * If cards match remove the click eventlisteners to keep the cards from flipping back.
  * If cards match also add a new class of 'match' to identify which cards have been won.
  * If divs have the class 'match' push them to the empty wonCards array.
- */ 
+ */
 function whenCardsMatch() {
     firstCardChoice.removeEventListener('click', flipCard);
     secondCardChoice.removeEventListener('click', flipCard);
@@ -88,12 +93,6 @@ function unflipCardsWhenWrong() {
 /**
  * A shuffleCards function is used to shuffle the cards so they will always be random.
  */
-(function shuffleCards() {
-    cards.forEach(card => {
-        let randomPosition = Math.floor(Math.random() * 12);
-        card.style.order = randomPosition;
-    });
-})();
 
 // Variables for the move counter
 let moves = 0;
@@ -139,7 +138,7 @@ function startTimer() {
  */
 function gameWon() {
     let modal = document.getElementById('myModal');
-    
+
     if (wonCards.length === 10) {
         clearInterval(interval);
         finalTime = timer.innerHTML;
