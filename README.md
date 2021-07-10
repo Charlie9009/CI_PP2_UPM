@@ -117,7 +117,33 @@ Therefor I chose the US flag for my background as well as the background for my 
 
 ### Wireframes
 
-* Below you can see the links to the respective wireframes
+* Below you can see the images of the wireframes.
+
+* The index/Game page.
+<br>
+<img src="docs/wireframes/index_desktop.JPG">
+<img src="docs/wireframes/index_tablet.JPG">
+<img src="docs/wireframes/index_mobile.JPG">
+<hr>
+
+* The congratulations modal.
+<br>
+<img src="docs/wireframes/modal_desktop.JPG">
+<hr>
+
+* The Users page.
+<br>
+<img src="docs/wireframes/users_desktop.JPG">
+<img src="docs/wireframes/users_tablet.JPG">
+<img src="docs/wireframes/users_mobile.JPG">
+<hr>
+
+* The Contact page.
+<br>
+<img src="docs/wireframes/contact_desktop.JPG">
+<img src="docs/wireframes/contact_tablet.JPG">
+<img src="docs/wireframes/contact_mobile.JPG">
+<hr>
 
 ## Features
 
