@@ -1,4 +1,4 @@
-// Add a card array and a loop to add eventListener to cards
+// Get card classes from html and declare card and cards variables to create an array of cards.
 let card = document.getElementsByClassName('card');
 let cards = [...card];
 
@@ -9,7 +9,7 @@ let cards = [...card];
 window.onload = function shuffleAndFlipCards() {
     for (var i = 0; i < cards.length; i++) {
         cards[i].addEventListener('click', flipCard);
-
+        // Ranomize the position of the cards
         cards.forEach(card => {
             let randomPosition = Math.floor(Math.random() * 20);
             card.style.order = randomPosition;
@@ -22,17 +22,21 @@ let lockTheBoard = false;
 let flippedCard = false;
 let firstCardChoice, secondCardChoice;
 
-// Function to flip the cards
+/**
+ * The flipCard function checks if the user has clicked the first card or second card.
+ * Depending on which click it is the board will lock or not.
+ */
 function flipCard() {
     if (lockTheBoard) return;
     if (this === firstCardChoice) return;
-
-    this.classList.toggle('open');
-
+    // Add this class
+    this.classList.add('open');
+    // First click on cards
     if (!flippedCard) {
         flippedCard = true;
         firstCardChoice = this;
     } else {
+        // Second click on cards
         flippedCard = false;
         secondCardChoice = this;
         // When two cards have been flipped call the function checkForMatch.
@@ -40,6 +44,11 @@ function flipCard() {
     }
 }
 
+/**
+ * The checkForMatch function checks if the dataset name of the first and the second card match, these names have been added to the cards in the html.
+ * If the cards match the whenCardsMatch function is called, if they dont the unflipCardsWhenWrong function is called.
+ * The moveCounter function is called at the bottom to count every move wether it is right or wrong.
+ */
 function checkForMatch() {
     // Checking if the cards match
     if (firstCardChoice.dataset.name === secondCardChoice.dataset.name) {
@@ -63,7 +72,7 @@ var wonCards = [];
 function whenCardsMatch() {
     firstCardChoice.removeEventListener('click', flipCard);
     secondCardChoice.removeEventListener('click', flipCard);
-
+    // Add match class to match card choice
     firstCardChoice.classList.add('match');
     secondCardChoice.classList.add('match');
     var div = document.querySelector('.match');
@@ -81,11 +90,10 @@ function whenCardsMatch() {
  */
 function unflipCardsWhenWrong() {
     lockTheBoard = true;
-
+    // Timeout before removing open class
     setTimeout(() => {
         firstCardChoice.classList.remove('open');
         secondCardChoice.classList.remove('open');
-
         lockTheBoard = false;
     }, 1000);
 }
@@ -138,7 +146,7 @@ function startTimer() {
  */
 function gameWon() {
     let modal = document.getElementById('myModal');
-
+    // Is the wonCards equal to 10 show modal
     if (wonCards.length === 10) {
         clearInterval(interval);
         modal.classList.add('show-modal');
