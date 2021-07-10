@@ -14,8 +14,8 @@ window.onload = function shuffleAndFlipCards() {
             let randomPosition = Math.floor(Math.random() * 20);
             card.style.order = randomPosition;
         });
-    };
-}
+    }
+};
 
 // For locking the board function
 let lockTheBoard = false;
@@ -53,7 +53,7 @@ function checkForMatch() {
 }
 
 // An empy array to put matched cards into
-var wonCards = []
+var wonCards = [];
 
 /**
  * If cards match remove the click eventlisteners to keep the cards from flipping back.
@@ -66,7 +66,7 @@ function whenCardsMatch() {
 
     firstCardChoice.classList.add('match');
     secondCardChoice.classList.add('match');
-    var div = document.querySelector('.match')
+    var div = document.querySelector('.match');
     if (div.classList.contains('match')) {
         wonCards.push(div);
     }
@@ -83,8 +83,8 @@ function unflipCardsWhenWrong() {
     lockTheBoard = true;
 
     setTimeout(() => {
-        firstCardChoice.classList.remove('open')
-        secondCardChoice.classList.remove('open')
+        firstCardChoice.classList.remove('open');
+        secondCardChoice.classList.remove('open');
 
         lockTheBoard = false;
     }, 1000);
@@ -141,12 +141,9 @@ function gameWon() {
 
     if (wonCards.length === 10) {
         clearInterval(interval);
-        finalTime = timer.innerHTML;
-
-        modal.classList.add('show-modal')
-
-        document.getElementById('yourTime').innerHTML = finalTime
-        document.getElementById('yourMoves').innerHTML = moves
+        modal.classList.add('show-modal');
+        document.getElementById('yourTime').innerHTML = timer.innerHTML;
+        document.getElementById('yourMoves').innerHTML = moves;
     }
 }
 
@@ -161,4 +158,4 @@ function closeModal() {
 // This function is tied to the resetbutton and it reloads the page.
 function resetGame() {
     location.reload();
-};
+}
