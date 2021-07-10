@@ -235,8 +235,103 @@ This will help the user identify witch page they are on.
 
 ## Testing user stories
 
-|                   Feature                       |        Action                   |                 Expected result           |   Actual result   |
-|                 :----------:                    |        :------------:           |        :-----------------:                | :---------------: |
+1. As a user I want an easy website where I can find the game fast.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|    The game is on the Home page.                |        None          |      I will find the game when I land on the Home page.  | Works as expected.  |
+|   There is a Game link in the navigation bar.   |   Click Game link.   |   I will find the game when click on the game link.      |  Works as expected. |
+[Screenshot for user story]
+<hr>
+
+2. As a user I want to be able to see which page I am on.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|In the navigation bar a border bottom will show up under the link of the page the user is on.|   None  |  I will see a border under the link of the page I am on.  | Works as expected.  |
+[Screenshot for user story]
+<hr>
+
+3. As a user I want to be able to play on desktop, tablet and mobile devices.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|   Every page has been designed to be responsive.   |        None          |     When on smaller screens The site will work.  | Works as expected.  |
+[Screenshot for user story]
+<hr>
+
+4. As a user I want to challenge my brain.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|  The memory game.       | To play the game the user needs to find pairs of presidents and sometimes remember where they saw which president.  |  I will use my memory to find all the presidents. | Works as expected.  |
+[Screenshot for user story]
+<hr>
+
+5. As a user I want to see how much time has passed in real-time while playing.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|   The timer is above the game area.            |  Click the cards.       |    When I have clicked two cards the timer will start. | Works as expected.  |
+[Screenshot for user story]
+<hr>
+
+6. As a user I want to be able to see the amount of moves I have made.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|   The moves are above the game area             |  Click the cards.    |    When I have clicked two cards the moves will add one. | Works as expected.  |
+[Screenshot for user story]
+<hr>
+
+7. As a user I want to see a pop up modal with time expired and moves made when completing the game.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|  A modal with final time, moves made and a close button.    |  Find all pairs.    |  When I finish the game the modal will show up. | Works as expected.  |
+[Screenshot for user story]
+<hr>
+
+8. As a user I want to be able to drop my info for updates.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|  A form to drop info to get updates.  | Fill out the form and click submit.   | When I click submit there will be an alert telling the form was submitted. | Works as expected.  |
+[Screenshot for user story]
+<hr>
+
+9. As a user I want to see other user who have played the game.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|  A page where users can see others who have played the game.   |  Click Users in the navigation bar.   |  When I click Users I will be directed to the users page. | Works as expected.  |
+[Screenshot for user story]
+<hr>
+
+10. As a user I want to know the site owners process making the site.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|  Footer information.  |  Scroll down to the footer.   |  When I scroll down I will find the footer with a link to the site owners github. | Works as expected.  |
+[Screenshot for user story]
+<hr>
+
+11. As a user I want to see the latest updates from the White House.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|  Footer information.  | Scroll down to the footer.  | When I scroll down I will find the footer with a link to the White House. | Works as expected.  |
+[Screenshot for user story]
+<hr>
+
+12. As a user I want a reset button if I want to reset the
+game.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|  A button to reset the game.                |       Click the button.    |  When I click the button the game will reset.      | Works as expected.  |
+[Screenshot for user story]
+<hr>
 
 ## Bugs
 
