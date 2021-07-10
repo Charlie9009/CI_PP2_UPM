@@ -5,6 +5,7 @@ let cards = [...card];
 /**
  * A window onload was used to loop thru the cards and give them each an eventListener.
  * I want the eventListener to listen out for clicks so the flipCard can fire if cards are clicked.
+ * A shuffleCards function is used to shuffle the cards so they will always be random.
  */
 window.onload = function shuffleAndFlipCards() {
     for (var i = 0; i < cards.length; i++) {
@@ -98,10 +99,6 @@ function unflipCardsWhenWrong() {
     }, 1000);
 }
 
-/**
- * A shuffleCards function is used to shuffle the cards so they will always be random.
- */
-
 // Variables for the move counter
 let moves = 0;
 let counter = document.querySelector('#moves-made');
@@ -155,9 +152,7 @@ function gameWon() {
     }
 }
 
-/**
- * This function gets the modal and removes the class of 'show-modal' removing the modal.
- */
+// This function gets the modal and removes the class of 'show-modal' removing the modal.
 function closeModal() {
     let modal = document.getElementById('myModal');
     modal.classList.remove('show-modal');
