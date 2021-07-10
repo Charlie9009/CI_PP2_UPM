@@ -111,6 +111,10 @@ Therefor I chose the US flag for my background as well as the background for my 
 
 #### Colors
 
+* Most of the colors I went with were based on the American flag. So there are alot of red and white throughout the site.
+
+* I gave the restart button a black background to make it stick out a bit more so it would be easier to spot.
+
 #### Fonts
 
 * I went with the font Bona Nova because I like how it runs and looks throughout the site. For the backup I picked Sans-serif.
@@ -442,6 +446,10 @@ game.
 
 ### Known bugs
 
+* When form is filled out correctly it does not send the form on the first click, the form sends on the second click.
+
+* In the game, if i click on card 1 and then card 2 and they are wrong they flip back, now if click on card 1 again it will not flip again. If I on the other hand click on any other card on the grid they will flip. It is just the first card choice and if the cards dont match.
+
 ## Deployment
 
 * *The site was deployed to github pages.*
@@ -468,8 +476,7 @@ pages -----------------.
 3. Above the file window locate the green code button and click it.
 4. To clone the repository using https copy the link.
 5. Open Git bash.
-6. Change the current directory to where you want the repository
-cloned.
+6. Change the current directory to where you want the repository cloned.
 
 7. In your terminal type now type “Git clone” followed by the
 repository you copied.
@@ -480,6 +487,6 @@ repository you copied.
 
 ## Media Credit
 
-### Images were googled and added to the project. Image sources were the following.
+### Images were googled and added to the project.
 
 ## Acknowledgement
