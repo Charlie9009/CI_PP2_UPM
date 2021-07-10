@@ -266,7 +266,7 @@ This will help the user identify witch page they are on.
 
 * Balsamiq was used to create the project wireframes.
 
-* WC3 Validator, Jigsaw W3 Validator, Wave Validator, Lighthouse and ami.responsivedesign were all used to test the website.
+* WC3 Validator, Jigsaw W3 Validator, JShint, Wave Validator, Lighthouse and ami.responsivedesign were all used to test the website.
 
 ## Testing
 
@@ -274,13 +274,48 @@ This will help the user identify witch page they are on.
 
 #### HTML
 
+* No errors were found on index.html when passing through WC3 Validator. <img src="docs/validation/html_index_validator.JPG">
+
+* No errors were found on users.html when passing through WC3 Validator. <img src="docs/validation/html_users_validator.JPG">
+
+* No errors were found on contact.html when passing through WC3 Validator. <img src="docs/validation/html_contact_validator.JPG">
+<hr>
+
 #### CSS
+
+* No errors were found on the CSS file when passing through Jigsaw W3 Validator. <img src="docs/validation/css_validator.JPG">
+<hr>
 
 #### Accessibility
 
+* No errors were found on the index.html when passing through Wave Web Accessibility Validator. <img src="docs/validation/wave_index_validator.JPG">
+
+* No errors were found on the users.html when passing through Wave Web Accessibility Validator. <img src="docs/validation/wave_users_validator.JPG">
+
+* No errors were found on the contact.html when passing through Wave Web Accessibility Validator. <img src="docs/validation/wave_contact_validator.JPG">
+
 #### Performance
 
+* Lighthouse was used to test the performance and the speed of the site. <br>
+
+* index.html <br>
+<img src="docs/validation/lighthouse_index_validator.JPG">
+
+* users.html <br>
+<img src="docs/validation/lighthouse_users_validator.JPG">
+
+* contact.html <br>
+<img src="docs/validation/lighthouse_contact_validator.JPG">
+
 ## Further testing
+
+* The website has been tested and are compatible in browsers Chrome, Firefox, Edge.
+
+* I have tested the website thru phones like One Plus 8T and Iphone XR.
+
+* The site has been tested on numerous of computers and laptops.
+
+* Friends and family has been asked to review the site.
 
 ## Testing user stories
 
