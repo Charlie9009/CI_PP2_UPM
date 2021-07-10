@@ -100,13 +100,15 @@ themselves.
 
 12. As a user I want a reset button if I want to reset the game.
 
+13. As a user I want a validation if my form was sent or if there was an error.
+
 #### Site owner goals
 
-13. I want the site to be visually appeasing.
+14. I want the site to be visually appeasing.
 
-14. I want the user to be able to challenge themselves.
+15. I want the user to be able to challenge themselves.
 
-15. I want the user to have fun.
+16. I want the user to have fun.
 
 ### Design
 
@@ -130,7 +132,10 @@ Contact. There is a feature of a border bottom to show up underneath the respect
 This will help the user identify witch page they are on.
 
 * The footer contains a link to my github page if the user wants to know more about the project. It also contains a link to the White House homepage if the user wants to read about the latest news regarding the White House.
-<img>
+<br>
+<img src="docs/features/feature_nav.JPG">
+<br>
+<img src="docs/features/feature_footer.JPG">
 
 ### User stories covered by this feature:
 
@@ -138,35 +143,41 @@ This will help the user identify witch page they are on.
 2. As a user I want to be able to see which page I am on.
 10. As a user I want to know the site owners process making the site.
 11. As a user I want to see the latest updates from the White House.
+<hr>
 
 * **Info area**
 
 * Here is the h1 header to tell the user they are on the “US president memory” page.
 
 * There is also a timer feature for the game as well as a move counter.
-<img>
+<br>
+<img src="docs/features/feature_info.JPG">
 
 ### User stories covered by feature:
 
 5. As a user I want to see how much time has passed in real-time while playing.
 6. As a user I want to be able to see the amount of moves I have made.
 12. As a user I want a reset button if I want to reset the game.
+<hr>
 
 * **Game area**
 
 * The game area features the memory game. The game contains 20 cards with 10 presidents. The game’s goal is to pair together 2 cards with the same image (president), the game is over when all the cards have been paired together.
-<img>
+<br>
+<img src="docs/features/feature_game.JPG">
 
 ### User stories covered by feature:
 
 1. As a user I want an easy website where I can find the game fast.
 3. As a user I want to be able to play on desktop, tablet and mobile devices.
 4. As a user I want to challenge my brain.
+<hr>
 
 * **Congratulations Modal**
 
 * When a user completes the game a modal shows up to congratulate the user the game is over along with the final time and how many moves were done ass well as a reset button if the user wants to play again.
-<img>
+<br>
+<img src="docs/features/feature_modal.JPG">
 
 ### User stories covered by feature:
 
@@ -174,24 +185,40 @@ This will help the user identify witch page they are on.
 6. As a user I want to be able to see the amount of moves I have made.
 7. As a user I want to see a pop up modal with time expired and moves made when completing the game.
 12. As a user I want a reset button if I want to reset the game.
+<hr>
 
 * **User page**
 
 * On the user page A fetch function was used to get data to post some users on the page.
-<img>
+<br>
+<img src="docs/features/feature_users.JPG">
 
 ### User stories covered by feature:
 
 9. As a user I want to see other user who have played the game.
+<hr>
 
 * **Contact page**
 
 * On the Contact page there is a form where a user can fill out their name and email if they would like to get updates. EmailJS has been used to send this data to the site owners email.
-<img>
+<br>
+<img src="docs/features/feature_form.JPG">
 
 ### User stories covered by feature:
 
 8. As a user I want to be able to drop my info for updates.
+<hr>
+
+* **Form Validation**
+
+* In the form there is a form validator to make sure the name or email fields are not empty. There is also a validator to ensure the user the form has been sent successfully.
+<br>
+<img src="docs/features/feature_form_validation.JPG">
+
+### User stories covered by feature:
+
+13. As a user I want a validation if my form was sent or if there was an error.
+<hr>
 
 ### Features left to implement
 
