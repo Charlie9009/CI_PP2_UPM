@@ -417,6 +417,14 @@ game.
 [Screenshot for user story]
 <hr>
 
+13. As a user I want a validation if my form was sent or if there was an error.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|   A form validation             |       Fill out the form    |  When one or both of the text areas is empty there will be an alert, if it is filled out correctly there will be an alert.      | Works as expected.  |
+[Screenshot for user story]
+<hr>
+
 ## Bugs
 
 ### Known bugs
