@@ -1,14 +1,10 @@
-Project goal:
-
-The goal of this project is to challenge my own knowledge to make a fun and challenging game for users. 
-
 # US Presidents
 
-<img src="">
+<img src="docs/mockups/mockups_uspresident.JPG">
 
 <hr>
 
-## Welcome to my site!
+## Welcome to my site [US President Memory](https://charlie9009.github.io/CI_PP2_UPM/index.html)!
 
 <br>
 
@@ -21,35 +17,35 @@ refresh-toc -->
 
 2. [User experience](#user-experience)
 
-1. [Target audience](#target-audience)
+    1. [Target audience](#target-audience)
 
-2. [User stories](#user-stories)
+    2. [User stories](#user-stories)
 
-3. [Design](#design)
+    3. [Design](#design)
 
-4. [Wireframes](#wireframes)
+    4. [Wireframes](#wireframes)
 
 3. [Features](#features)
 
 4. [Technologies used](#technologies-used)
 
-1. [Languages](#languages)
+    1. [Languages](#languages)
 
-2. [Libraries and programs](#libraries-and-programs)
+    2. [Libraries and programs](#libraries-and-programs)
 
 5. [Testing](#testing)
 
-1. [HTML](#html)
+    1. [HTML](#html)
 
-2. [CSS](#css)
+    2. [CSS](#css)
 
-3. [Accessibility](#accessibility)
+    3. [Accessibility](#accessibility)
 
-4. [Performance](#Performance)
+    4. [Performance](#Performance)
 
-5. [Further testing](#further-testing)
+    5. [Further testing](#further-testing)
 
-6. [Testing user stories](#testing-user-stories)
+    6. [Testing user stories](#testing-user-stories)
 
 6. [Bugs](#bugs)
 
@@ -57,9 +53,9 @@ refresh-toc -->
 
 8. [Credit](#credit)
 
-1. [Media credit](#media-credit)
+    1. [Media credit](#media-credit)
 
-2. [Acknowledgement](#acknowledgement)
+    2. [Acknowledgement](#acknowledgement)
 
 ## Project goals
 
@@ -73,8 +69,6 @@ The site is targeted towards everyone who wants to challenge their
 themselves.
 
 ### User stories
-
-#### User
 
 1. As a user I want an easy website where I can find the game fast.
 
@@ -122,6 +116,8 @@ Therefor I chose the US flag for my background as well as the background for my 
 * I went with the font Bona Nova because I like how it runs and looks throughout the site. For the backup I picked Sans-serif.
 
 ### Wireframes
+
+* Below you can see the links to the respective wireframes
 
 ## Features
 
