@@ -292,6 +292,14 @@ This will help the user identify witch page they are on.
 * No errors were found on the CSS file when passing through Jigsaw W3 Validator. <img src="docs/validation/css_validator.JPG">
 <hr>
 
+#### JavaScript
+
+* No errors were found on game.js when passing through jshint. <img src="docs/validation/_validaton.JPG">
+
+* No errors were found on users.js when passing through jshint. <img src="docs/validation/javascript_users_validaton.JPG">
+
+* No errors were found on form.js when passing through jshint. <img src="docs/validation/javascript_form_validaton.JPG">
+
 #### Accessibility
 
 * No errors were found on the index.html when passing through Wave Web Accessibility Validator. <img src="docs/validation/wave_index_validator.JPG">
