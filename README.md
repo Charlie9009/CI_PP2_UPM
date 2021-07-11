@@ -487,25 +487,47 @@ game.
 </details>
 <hr>
 
+### API
+
+* EmailJS
+    * Create an account on EmailJS
+    * Add a new email service, I chose *Personal email services* and chose a name and a service ID.
+    * Create an email template with the wanted variables. In my case a username and an email.
+    * Add a link in the head of the html and add Javascript in the form.js.
+
+* Regres
+    * Go to Regres home page.
+    * Scroll down and find GET LIST USERS.
+    * Use the fetch function along with template literals to map out the users.
+
 ## Bugs
 
-* Footer links did not open in a new tab, I added a target_blank to fix it.
+* **Bug:** Footer links did not open in a new tab.
+    * **Fix:** I added a target_blank to fix it.
 
-* The footer cut some of the content, I gave it a position of absolute and the body, html a position of relative.
+* **Bug:** The footer cut some of the content.
+    * **Fix:** I gave it a position of absolute and the body, html a position of relative.
 
-* I had white space under my footer, I tried styling with overflow hidden but my desired result came after I inspected my page and removed som margins.
+* **Bug:** I had white space under my footer.
+    * **Fix:** I tried styling with overflow hidden but my desired result came after I inspected my page and removed some margins.
 
-* When I pushed my site live my css and my images did not load, I fixed the filepaths which resolved the issue.
+* **Bug:** When I pushed my site live my css and my images did not load.
+    * **Fix:** I fixed the filepaths which resolved the issue.
 
-* I had an issue getting the timer to stop in the game, I had to make the game understand *when* the game was over by adding an array to put all the matched cards in and tell it how many cards need to be there and then fire a modal with the clearInterval.
+* **Bug:** I had an issue getting the timer to stop in the game. 
+    * **Fix:** I had to make the game understand *when* the game was over by adding an array to put all the matched cards in and tell it how many cards need to be there and then fire a modal with the clearInterval.
 
-* The form validation only showed name modal so I gave all the modals a unique id in contact.html and form.js.
+* **Bug:** The form validation only showed name modal.
+    * **Fix:** I gave all the modals a unique id in contact.html and form.js.
 
-* The game would keep flipping the cards when the user would press them so js was added to lock the board when two cards were flipped.
+* **Bug:** The game would keep flipping the cards when the user would press them. 
+    * **Fix:** js was added to lock the board when two cards were flipped.
 
-* I could not get the 404 page to work, when I launched the site to go live this resolved itself.
+* **Bug:** I could not get the 404 page to work. 
+    * **Fix:** When I launched the site to go live this resolved itself.
 
-* I could not get the username and email from what had been filled out in the form to send with emailjs, code was added in form.js to target form.name.value and respectively for email.
+* **Bug:** I could not get the username and email from what had been filled out in the form to send with emailjs.
+    * **Fix:** Code was added in form.js to target form.name.value and respectively for email.
 
 ### Known bugs
 
