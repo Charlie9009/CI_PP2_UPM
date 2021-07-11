@@ -523,6 +523,10 @@ repository you copied.
     * https://www.youtube.com/watch?v=ZniVgo8U7ek&t=973s
     * https://www.youtube.com/watch?v=tjyDOHzKN0w&t=382s
 
+* The credit for the functionality for sending the form directly to the site owners email goes to [EmailJS](https://www.emailjs.com/).
+
+* The credit for the content that is fetched in the users page goes to [Regres](https://reqres.in/).
+
 ## Media Credit
 
 ### Images were googled and added to the project.
