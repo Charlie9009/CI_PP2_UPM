@@ -1,12 +1,13 @@
 /**
  * The form.js is used by the contact.html file to validate the form.
  * It also uses emailJS as a tool to send the filled out form to the site owners gmail.
+ */
+ let modalForm = document.getElementById('formModal');
+ /**
  * The function validateForm informs the user if they have not filled it out the form and also informs them if they did it correctly.
  * The variables name and email are targeted by their value.
  */
- let modalForm = document.getElementById('formModal');
-
-function validateForm() {
+ function validateForm() {
     const name = document.querySelector('#full-name').value;
     const email = document.querySelector('#email').value;
     // If statements to see if name and email has been filled out. If they have fire sendEmail function. If they have not return alert.
@@ -38,13 +39,18 @@ function sendEmail() {
     });
 }
 
+// Get the Modal form button
 let getFormButton = document.getElementsByClassName('close-form-button');
-
+/**
+ * Function for closing the Modal form. 
+ * The loop gives the three modals an eventListener and calls a function to remove a class when clicked.
+ */
 function closeFormModal() {
 for (var i = 0; i < getFormButton.length; i++) {
     getFormButton[i].addEventListener('click', removeClass);
 }}
 
+// This function removes the class so the modal dissapears.
 function removeClass() {
     modalForm.classList.remove('form-modal-show-name');
 }
