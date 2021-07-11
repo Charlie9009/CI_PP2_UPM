@@ -1,7 +1,6 @@
 // Get card classes from html and declare card and cards variables to create an array of cards by using the spread operator.
 let card = document.getElementsByClassName('card');
 let cards = [...card];
-
 /**
  * A window onload was used to loop thru the cards and give them each an eventListener.
  * I want the eventListener to listen out for clicks so the flipCard can fire if cards are clicked.
@@ -64,7 +63,6 @@ function checkForMatch() {
 
 // An empy array to put matched cards into
 var wonCards = [];
-
 /**
  * If cards match remove the click eventlisteners to keep the cards from flipping back.
  * If cards match also add a new class of 'match' to identify which cards have been won.
@@ -102,7 +100,6 @@ function unflipCardsWhenWrong() {
 // Variables for the move counter
 let moves = 0;
 let counter = document.querySelector('#moves-made');
-
 /**
  * The moveCounter function counts one move to the html everytime when two cards have been flipped.
  * It also includes if 1 move has been made the timer will start.
@@ -120,7 +117,6 @@ function moveCounter() {
 var second = 0, minute = 0;
 var timer = document.querySelector('#time-expired');
 var interval;
-
 /**
  * The startTimer function sets the interval and how the timer function. It gives an output of minutes and seconds.
  * It counts in 1000ms.
@@ -129,7 +125,8 @@ function startTimer() {
     interval = setInterval(function () {
         timer.innerHTML = minute + ' ' + 'mins' + ' ' + second + ' ' + 'secs';
         second++;
-        if (second == 60) {
+        // If seconds are equal to 60 add 1 to minute and start from 0 on seconds.
+        if (second === 60) {
             minute++;
             second = 0;
         }
