@@ -106,7 +106,7 @@ themselves.
 
 17. I want the user to get feedback on which page they are on.
 
-18. I want the user to get feedback and conformation if they fill out a form wrong or right.
+18. I want the user to get feedback and confirmation if they fill out a form wrong or right.
 
 19. I want the site to be responsive.
 
@@ -211,7 +211,7 @@ This will help the user identify witch page they are on.
 
 * **Congratulations Modal**
 
-* When a user completes the game a modal shows up to congratulate the user the game is over along with the final time and how many moves were done ass well as a reset button if the user wants to play again.
+* When a user completes the game a modal shows up to congratulate the user the game is over along with the final time and how many moves were done as well as a reset button if the user wants to play again.
 <br>
 <img src="docs/features/feature_modal.JPG">
 
@@ -258,7 +258,29 @@ This will help the user identify witch page they are on.
 ### User stories covered by feature:
 
 13. As a user I want a validation if my form was sent or if there was an error.
-18. I want the user to get feedback and conformation if they fill out a form wrong or right.
+18. I want the user to get feedback and confirmation if they fill out a form wrong or right.
+<hr>
+
+* **Site Responsive**
+
+* The site has been tested to be responsive.
+<br>
+<img src="docs/features/user_story_3_19.png">
+
+### User stories covered by feature:
+
+19. I want the site to be responsive.
+
+* **404 Page**
+
+* The site has been tested to be responsive.
+<br>
+<img src="docs/features/user_story_3_19.png">
+
+### User stories covered by feature:
+
+19. I want the site to be responsive.
+
 <hr>
 
 ### Features left to implement
