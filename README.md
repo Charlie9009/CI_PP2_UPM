@@ -456,6 +456,8 @@ game.
 
 * Footer links did not open in a new tab, I added a target_blank to fix it.
 
+* The footer cut some of the content, I gave it a position of absolute and the body, html a position of relative.
+
 * I had white space under my footer, I tried styling with overflow hidden but my desired result came after I inspected my page and removed som margins.
 
 * When I pushed my site live my css and my images did not load, I fixed the filepaths which resolved the issue.
@@ -465,6 +467,10 @@ game.
 * The form validation only showed name modal so I gave all the modals a unique id in contact.html and form.js.
 
 * The game would keep flipping the cards when the user would press them so js was added to lock the board when two cards were flipped.
+
+* I could not get the 404 page to work, when I launched the site to go live this resolved itself.
+
+* I could not get the username and email from what had been filled out in the form to send with emailjs, code was added in form.js to target form.name.value and respectively for email.
 
 ### Known bugs
 
