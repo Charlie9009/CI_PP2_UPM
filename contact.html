@@ -41,8 +41,18 @@
             </div>
         </div>
         <div id="formModal" class="form-modal">
+            <div class="inner-form-modal">
+                <h3 id="modal-form-header">Ops! You didn't fill out your Email</h3>
+                <i class="far fa-frown font-awesome"></i>
+                <button class="center-headers close-form-button" onclick="closeFormModal()">Close</button>
+            </div>
         </div>
         <div id="formModal" class="form-modal">
+            <div class="inner-form-modal">
+                <h3 id="modal-form-header">Yay! Your form has been sent</h3>
+                <i class="far fa-frown font-awesome"></i>
+                <button class="center-headers close-form-button" onclick="closeFormModal()">Close</button>
+            </div>
         </div>
         <div id="container-form">
             <form id="form" onsubmit="return validateForm()" name="contactForm" method="POST">

@@ -43,14 +43,16 @@ function sendEmail() {
 let getFormButton = document.getElementsByClassName('close-form-button');
 /**
  * Function for closing the Modal form. 
- * The loop gives the three modals an eventListener and calls a function to remove a class when clicked.
+ * The loop gives the three modals an eventListener and calls a function to remove classes when clicked.
  */
 function closeFormModal() {
 for (var i = 0; i < getFormButton.length; i++) {
     getFormButton[i].addEventListener('click', removeClass);
 }}
 
-// This function removes the class so the modal dissapears.
+// This function removes the classes so the modal dissapears.
 function removeClass() {
     modalForm.classList.remove('form-modal-show-name');
+    modalForm.classList.remove('form-modal-show-email');
+    modalForm.classList.remove('form-modal-show-send');
 }
