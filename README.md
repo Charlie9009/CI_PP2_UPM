@@ -123,11 +123,12 @@ Therefor I chose the US flag for my background as well as the background for my 
 
 * Below you can see the images of the wireframes.
 
-* The index/Game page.
 <br>
+<details><summary>The index/Game page.</summary>
 <img src="docs/wireframes/index_desktop.JPG">
 <img src="docs/wireframes/index_tablet.JPG">
 <img src="docs/wireframes/index_mobile.JPG">
+</details>
 <hr>
 
 * The congratulations modal.
