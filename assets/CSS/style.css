@@ -200,10 +200,12 @@ button:hover {
     flex: 33%;
 }
 
+/* Contact page, Modal validation for form */
 .form-modal {
     display: none;
 }
 
+/* Modal for name validation */
 .form-modal-show-name {
     background-color: rgb(68, 33, 30);
     height: 20%;
@@ -217,10 +219,11 @@ button:hover {
     display: block;
 }
 
+/* Modal for email validation */
 .form-modal-show-email {
-    background-color: black;
+    background-color: rgb(68, 33, 30);
     height: 20%;
-    width: 100px;
+    width: 40%;
     z-index: 1;
     position: fixed;
     left: 50%;
@@ -230,10 +233,11 @@ button:hover {
     display: block;
 }
 
+/* Modal for success validation */
 .form-modal-show-send {
-    background-color: black;
-    height: 100px;
-    width: 100px;
+    background-color: rgb(68, 33, 30);
+    height: 20%;
+    width: 40%;
     z-index: 1;
     position: fixed;
     left: 50%;
@@ -243,6 +247,7 @@ button:hover {
     display: block;
 }
 
+/* Inner content of modals */
 .inner-form-modal {
     text-align: center;
     font-size: 120%;
@@ -252,9 +257,7 @@ button:hover {
     font-size: 200%;
 }
 
-
-
-/** Contact page, Form **/
+/** Form **/
 #container-form {
     flex-wrap: wrap;
     display: flex;
@@ -395,6 +398,29 @@ form {
         margin-top: -70px;
     }
 
+    /* Modal for name validation */
+    .form-modal-show-name {
+        height: 20%;
+        width: 60%;
+    }
+
+    /* Modal for email validation */
+    .form-modal-show-email {
+        height: 20%;
+        width: 60%;
+    }
+
+    /* Modal for success validation */
+    .form-modal-show-send {
+        height: 20%;
+        width: 60%;
+    }
+
+    /* Inner content of modals */
+    .inner-form-modal {
+        font-size: 130%;
+    }
+
     /** Form **/
     #container-form {
         height: 400px;
@@ -479,6 +505,23 @@ form {
         width: 100%;
     }
 
+    /* Modal for name validation */
+    .form-modal-show-name {
+        height: 30%;
+        width: 90%;
+    }
+
+    /* Modal for email validation */
+    .form-modal-show-email {
+        height: 30%;
+        width: 90%;
+    }
+
+    /* Modal for success validation */
+    .form-modal-show-send {
+        height: 30%;
+        width: 90%;
+    }
     /** Form **/
     #container-form {
         height: 400px;
