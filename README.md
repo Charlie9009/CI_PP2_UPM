@@ -454,6 +454,8 @@ game.
 
 * I had an issue getting the timer to stop in the game, I had to make the game understand *when* the game was over by adding an array to put all the matched cards in and tell it how many cards need to be there and then fire a modal with the clearInterval.
 
+* The form validation only showed name modal so I gave all the modals a unique id in contact.html and form.js.
+
 ### Known bugs
 
 * When form is filled out correctly it does not send the form on the first click, the form sends on the second click.
