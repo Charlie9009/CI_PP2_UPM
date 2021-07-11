@@ -452,6 +452,8 @@ game.
 
 * In the game, if i click on card 1 and then card 2 and they are wrong they flip back, now if click on card 1 again it will not flip again. If I on the other hand click on any other card on the grid they will flip. It is just the first card choice and if the cards dont match.
 
+* In the form pop up modals there is a similiar bug as in when the form sends, when the close button is closed the first time is does not respond but the second time it does.
+
 ## Deployment
 
 * *The site was deployed to github pages.*
