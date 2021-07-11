@@ -273,13 +273,13 @@ This will help the user identify witch page they are on.
 
 * **404 Page**
 
-* The site has been tested to be responsive.
+* The site has been given a 404 page where the user is taken if a page cant be loaded.
 <br>
-<img src="docs/features/user_story_3_19.png">
+<img src="docs/features/feature_404.JPG">
 
 ### User stories covered by feature:
 
-19. I want the site to be responsive.
+20. I want the user to come to a 404 page if they type the web address wrong.
 
 <hr>
 
