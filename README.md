@@ -462,6 +462,8 @@ game.
 
 * In the form pop up modals there is a similiar bug as in when the form sends, when the close button is closed the first time is does not respond but the second time it does.
 
+* In the middle stage i had code for the restart game button that worked, but in the congratulations modal it did not. I separated the buttons and had one restart the game with location.reload and the other just to close the modal so the user also could see all the presidents turned on the cards.
+
 ## Deployment
 
 * *The site was deployed to github pages.*
