@@ -393,7 +393,7 @@ This will help the user identify witch page they are on.
 |            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
 |In the navigation bar a border bottom will show up under the link of the page the user is on.|   None  |  I will see a border under the link of the page I am on.  | Works as expected.  |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_2.png">
+<img src="docs/features/user_story_2_17.png">
 </details>
 <hr>
 
@@ -403,7 +403,7 @@ This will help the user identify witch page they are on.
 |            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
 |   Every page has been designed to be responsive.   |        None          |     When on smaller screens The site will work.  | Works as expected.  |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_3.png">
+<img src="docs/features/user_story_3_19.png">
 </details>
 <hr>
 
@@ -423,7 +423,7 @@ This will help the user identify witch page they are on.
 |            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
 |   The timer is above the game area.            |  Click the cards.       |    When I have clicked two cards the timer will start. | Works as expected.  |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_5_6_12.png">
+<img src="docs/features/user_story_5_6_12_21.png">
 </details>
 <hr>
 
@@ -433,7 +433,7 @@ This will help the user identify witch page they are on.
 |            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
 |   The moves are above the game area             |  Click the cards.    |    When I have clicked two cards the moves will add one. | Works as expected.  |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_5_6_12.png">
+<img src="docs/features/user_story_5_6_12_21.png">
 </details>
 <hr>
 
@@ -443,7 +443,7 @@ This will help the user identify witch page they are on.
 |            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
 |  A modal with final time, moves made and a close button.    |  Find all pairs.    |  When I finish the game the modal will show up. | Works as expected.  |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_7.png">
+<img src="docs/features/user_story_7_22.png">
 </details>
 <hr>
 
@@ -504,7 +504,60 @@ game.
 |            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
 |   A form validation             |       Fill out the form    |  When one or both of the text areas is empty there will be an alert, if it is filled out correctly there will be an alert.      | Works as expected.  |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_8_13.png">
+<img src="docs/features/user_story_8_13_18.png">
+</details>
+<hr>
+
+17. I want the user to get feedback on which page they are on.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|In the navigation bar a border bottom will show up under the link of the page the user is on.|   None  |  I will see a border under the link of the page I am on.  | Works as expected.  |
+<details><summary>Screenshot</summary>
+<img src="docs/features/user_story_2_17.png">
+</details>
+<hr>
+
+18. I want the user to get feedback and conformation if they fill out a form wrong or right.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|   A form validation             |       Fill out the form    |  When one or both of the text areas is empty there will be an alert, if it is filled out correctly there will be an alert.      | Works as expected.  |
+<details><summary>Screenshot</summary>
+<img src="docs/features/user_story_8_13_18.png">
+</details>
+<hr>
+
+19. I want the site to be responsive.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|   Every page has been designed to be responsive.   |        None          |     When on smaller screens The site will work.  | Works as expected.  |
+<details><summary>Screenshot</summary>
+<img src="docs/features/user_story_3_19.png">
+</details>
+<hr>
+
+20. I want the user to come to a 404 page if they type the web address wrong.
+
+21. I want the user to get feedback on how much time has passed in the game and how many moves have been made.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|   The timer is above the game area.            |  Click the cards.       |    When I have clicked two cards the timer will start. | Works as expected.  |
+|   The moves are above the game area             |  Click the cards.    |    When I have clicked two cards the moves will add one. | Works as expected.  |
+<details><summary>Screenshot</summary>
+<img src="docs/features/user_story_5_6_12_21.png">
+</details>
+<hr>
+
+22. I want the user to get feedback when they beat the game.
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|  A modal with final time, moves made and a close button.    |  Find all pairs.    |  When I finish the game the modal will show up. | Works as expected.  |
+<details><summary>Screenshot</summary>
+<img src="docs/features/user_story_7_22.png">
 </details>
 <hr>
 
