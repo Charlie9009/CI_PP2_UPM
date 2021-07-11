@@ -9,6 +9,8 @@
     <meta name="keywords" content="US, President, United States, Memory, Game">
     <!-- Favicon links -->
     <link rel="icon" href="assets/images/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/CSS/style.css">
     <!-- EmailJS -->
@@ -32,6 +34,11 @@
         <h1 class="center-headers">Need to get in touch with us? Leave you name and email below.</h1>
         <!-- Form -->
         <div id="formModal" class="form-modal">
+            <div class="inner-form-modal">
+                <h3 id="modal-form-header">Ops! You didn't fill out your name</h3>
+                <i class="far fa-frown font-awesome"></i>
+                <button class="center-headers close-form-button" onclick="closeFormModal()">Close</button>
+            </div>
         </div>
         <div id="formModal" class="form-modal">
         </div>

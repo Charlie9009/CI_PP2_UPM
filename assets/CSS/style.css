@@ -201,25 +201,27 @@ button:hover {
 }
 
 .form-modal-show-name {
-    background-color: black;
-    height: 100px;
-    width: 100px;
+    background-color: rgb(68, 33, 30);
+    height: 20%;
+    width: 40%;
     z-index: 1;
     position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    opacity: 0.9;
 }
 
 .form-modal-show-email {
     background-color: blue;
-    height: 100px;
+    height: 20%;
     width: 100px;
     z-index: 1;
     position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    opacity: 0.9;
 }
 
 .form-modal-show-send {
@@ -231,6 +233,16 @@ button:hover {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    opacity: 0.9;
+}
+
+.inner-form-modal {
+    text-align: center;
+    font-size: 120%;
+}
+
+.font-awesome {
+    font-size: 200%;
 }
 
 .form-modal {
