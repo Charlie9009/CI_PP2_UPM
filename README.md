@@ -104,6 +104,18 @@ themselves.
 
 16. I want the user to have fun.
 
+17. I want the user to get feedback on which page they are on.
+
+18. I want the user to get feedback and conformation if they fill out a form wrong or right.
+
+19. I want the site to be responsive.
+
+20. I want the user to come to a 404 page if they type the web address wrong.
+
+21. I want the user to get feedback on how much time has passed in the game and how many moves have been made.
+
+22. I want the user to get feedback when they beat the game.
+
 ### Design
 
 * Because my site was going to focus on a game with American presidents I wanted to have a design with an American touch to it.
@@ -165,6 +177,7 @@ This will help the user identify witch page they are on.
 2. As a user I want to be able to see which page I am on.
 10. As a user I want to know the site owners process making the site.
 11. As a user I want to see the latest updates from the White House.
+17. I want the user to get feedback on which page they are on.
 <hr>
 
 * **Info area**
@@ -180,6 +193,7 @@ This will help the user identify witch page they are on.
 5. As a user I want to see how much time has passed in real-time while playing.
 6. As a user I want to be able to see the amount of moves I have made.
 12. As a user I want a reset button if I want to reset the game.
+21. I want the user to get feedback on how much time has passed in the game and how many moves have been made.
 <hr>
 
 * **Game area**
@@ -207,6 +221,8 @@ This will help the user identify witch page they are on.
 6. As a user I want to be able to see the amount of moves I have made.
 7. As a user I want to see a pop up modal with time expired and moves made when completing the game.
 12. As a user I want a reset button if I want to reset the game.
+21. I want the user to get feedback on how much time has passed in the game and how many moves have been made.
+22. I want the user to get feedback when they beat the game.
 <hr>
 
 * **User page**
@@ -242,6 +258,7 @@ This will help the user identify witch page they are on.
 ### User stories covered by feature:
 
 13. As a user I want a validation if my form was sent or if there was an error.
+18. I want the user to get feedback and conformation if they fill out a form wrong or right.
 <hr>
 
 ### Features left to implement
@@ -343,9 +360,13 @@ This will help the user identify witch page they are on.
 </details>
 <hr>
 
-## Further testing
+## Browser Compatibility
 
-* The website has been tested and are compatible in browsers Chrome, Firefox, Edge.
+* * The website has been tested and are compatible in browsers Chrome, Firefox, Edge.
+
+* The game and the fetch api is not compatible in Internet Explorer.
+
+## Further testing
 
 * I have tested the website thru phones like One Plus 8T and Iphone XR.
 
@@ -538,6 +559,8 @@ game.
 * In the form pop up modals there is a similiar bug as in when the form sends, when the close button is closed the first time is does not respond but the second time it does.
 
 * In the middle stage i had code for the restart game button that worked, but in the congratulations modal it did not. I separated the buttons and had one restart the game with location.reload and the other just to close the modal so the user also could see all the presidents turned on the cards.
+
+* In Internet Explorer the game does not react to click on the cards and the fetch api does not appear.
 
 ## Deployment
 
