@@ -1,4 +1,4 @@
-// Get card classes from html and declare card and cards variables to create an array of cards.
+// Get card classes from html and declare card and cards variables to create an array of cards by using the spread operator.
 let card = document.getElementsByClassName('card');
 let cards = [...card];
 
@@ -10,7 +10,7 @@ let cards = [...card];
 window.onload = function shuffleAndFlipCards() {
     for (var i = 0; i < cards.length; i++) {
         cards[i].addEventListener('click', flipCard);
-        // Ranomize the position of the cards
+        // Randomize the position of the cards
         cards.forEach(card => {
             let randomPosition = Math.floor(Math.random() * 20);
             card.style.order = randomPosition;

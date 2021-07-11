@@ -7,9 +7,10 @@
 function validateForm() {
     const name = document.querySelector('#full-name').value;
     const email = document.querySelector('#email').value;
+    let modalName = document.getElementById('nameModal')
     // If statements to see if name and email has been filled out. If they have fire sendEmail function. If they have not return alert.
     if (name === '') {
-        alert('Name must be filled out');
+        modalName.classList.add('form-modal-show-name')
     } else if (email === '') {
         alert('email must be filled out');
     } else {

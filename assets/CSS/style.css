@@ -200,6 +200,21 @@ button:hover {
     flex: 33%;
 }
 
+.form-modal-show-name {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-modal {
+    
+}
+
 /** Contact page, Form **/
 #container-form {
     flex-wrap: wrap;

@@ -2,7 +2,6 @@
  * The api.js is used by the user.html file to fetch data from the webpage 'https://reqres.in'.
  * The GET list users was used to fetch the data and to display it to the users screen. 
  */
-
 function fetchData() {
   fetch('https://reqres.in/api/users')
   .then(response => {
