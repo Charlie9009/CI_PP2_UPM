@@ -540,6 +540,14 @@ game.
 
 20. I want the user to come to a 404 page if they type the web address wrong.
 
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|   A 404 page if a page cannot be found          |  Cannot find page    | When a user types the wrong address or cannot find a page they will be rerouted to a 404 page  | Works as expected.  |
+<details><summary>Screenshot</summary>
+<img src="docs/features/user_story_20.png">
+</details>
+<hr>
+
 21. I want the user to get feedback on how much time has passed in the game and how many moves have been made.
 
 |                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
