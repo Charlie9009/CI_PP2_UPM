@@ -239,7 +239,9 @@ This will help the user identify witch page they are on.
 
 * In the form there is a form validator to make sure the name or email fields are not empty. There is also a validator to ensure the user the form has been sent successfully.
 <br>
-<img src="docs/features/feature_form_validation.JPG">
+<img src="docs/features/feature_form_validation_name.JPG">
+<img src="docs/features/feature_form_validation_email.JPG">
+<img src="docs/features/feature_form_validation_sent.JPG">
 
 ### User stories covered by feature:
 
