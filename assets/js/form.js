@@ -3,7 +3,9 @@
  * It also uses emailJS as a tool to send the filled out form to the site owners gmail.
  * This first variable gets the modal by id.
  */
- let modalForm = document.getElementById('formModal');
+ let modalFormName = document.getElementById('formModalName');
+ let modalFormEmail = document.getElementById('formModalEmail');
+ let modalFormSend = document.getElementById('formModalSend');
  /**
  * The function validateForm informs the user if they have not filled it out the form and also informs them if they did it correctly.
  * The variables name and email are targeted by their value.
@@ -13,9 +15,9 @@
     const email = document.querySelector('#email').value;
     // If statements to see if name and email has been filled out. If they have fire sendEmail function. If they have not return alert.
     if (name === '') {
-        modalForm.classList.add('form-modal-show-name');
+        modalFormName.classList.add('form-modal-show-name');
     } else if (email === '') {
-        modalForm.classList.add('form-modal-show-email');
+        modalFormEmail.classList.add('form-modal-show-email');
     } else {
         sendEmail();
     }
@@ -36,7 +38,7 @@ function sendEmail() {
             user_name: form.name.value,
             user_email: form.email.value,
         });
-        modalForm.classList.add('form-modal-show-send');
+        modalFormSend.classList.add('form-modal-show-send');
     });
 }
 
@@ -53,7 +55,7 @@ for (var i = 0; i < getFormButton.length; i++) {
 
 // This function removes the classes so the modal dissapears.
 function removeClass() {
-    modalForm.classList.remove('form-modal-show-name');
-    modalForm.classList.remove('form-modal-show-email');
-    modalForm.classList.remove('form-modal-show-send');
+    modalFormName.classList.remove('form-modal-show-name');
+    modalFormEmail.classList.remove('form-modal-show-email');
+    modalFormSend.classList.remove('form-modal-show-send');
 }

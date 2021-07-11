@@ -200,6 +200,10 @@ button:hover {
     flex: 33%;
 }
 
+.form-modal {
+    display: none;
+}
+
 .form-modal-show-name {
     background-color: rgb(68, 33, 30);
     height: 20%;
@@ -210,10 +214,11 @@ button:hover {
     top: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.9;
+    display: block;
 }
 
 .form-modal-show-email {
-    background-color: blue;
+    background-color: black;
     height: 20%;
     width: 100px;
     z-index: 1;
@@ -222,10 +227,11 @@ button:hover {
     top: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.9;
+    display: block;
 }
 
 .form-modal-show-send {
-    background-color: rebeccapurple;
+    background-color: black;
     height: 100px;
     width: 100px;
     z-index: 1;
@@ -234,6 +240,7 @@ button:hover {
     top: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.9;
+    display: block;
 }
 
 .inner-form-modal {
@@ -245,9 +252,7 @@ button:hover {
     font-size: 200%;
 }
 
-.form-modal {
-    
-}
+
 
 /** Contact page, Form **/
 #container-form {
