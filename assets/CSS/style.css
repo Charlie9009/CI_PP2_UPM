@@ -211,6 +211,28 @@ button:hover {
     transform: translate(-50%, -50%);
 }
 
+.form-modal-show-email {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-modal-show-send {
+    background-color: rebeccapurple;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .form-modal {
     
 }

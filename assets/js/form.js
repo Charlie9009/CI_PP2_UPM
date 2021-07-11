@@ -4,10 +4,11 @@
  * The function validateForm informs the user if they have not filled it out the form and also informs them if they did it correctly.
  * The variables name and email are targeted by their value.
  */
+ let modalName = document.getElementById('formModal')
+
 function validateForm() {
     const name = document.querySelector('#full-name').value;
     const email = document.querySelector('#email').value;
-    let modalName = document.getElementById('nameModal')
     // If statements to see if name and email has been filled out. If they have fire sendEmail function. If they have not return alert.
     if (name === '') {
         modalName.classList.add('form-modal-show-name')
