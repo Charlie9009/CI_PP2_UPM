@@ -464,6 +464,8 @@ game.
 
 * The form validation only showed name modal so I gave all the modals a unique id in contact.html and form.js.
 
+* The game would keep flipping the cards when the user would press them so js was added to lock the board when two cards were flipped.
+
 ### Known bugs
 
 * When form is filled out correctly it does not send the form on the first click, the form sends on the second click.
