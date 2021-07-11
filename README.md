@@ -485,8 +485,18 @@ repository you copied.
 
 ## Credit
 
+* The building blocks of the memory game were **heavily** inspired by the following.
+
+    * https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript
+    * https://www.youtube.com/watch?v=ZniVgo8U7ek&t=973s
+    * https://www.youtube.com/watch?v=tjyDOHzKN0w&t=382s
+
 ## Media Credit
 
 ### Images were googled and added to the project.
 
 ## Acknowledgement
+
+* My Mentor Mo has been invaluable, he pushed me to challenge myself and he was able to provide consistent and helpful feedback throughout my project.
+
+* A friend of mine in the business Will, has been able to provide me with help and tips.
