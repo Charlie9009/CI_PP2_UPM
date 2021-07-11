@@ -446,6 +446,14 @@ game.
 
 ## Bugs
 
+* Footer links did not open in a new tab, I added a target_blank to fix it.
+
+* I had white space under my footer, I tried styling with overflow hidden but my desired result came after I inspected my page and removed som margins.
+
+* When I pushed my site live my css and my images did not load, I fixed the filepaths which resolved the issue.
+
+* I had an issue getting the timer to stop in the game, I had to make the game understand *when* the game was over by adding an array to put all the matched cards in and tell it how many cards need to be there and then fire a modal with the clearInterval.
+
 ### Known bugs
 
 * When form is filled out correctly it does not send the form on the first click, the form sends on the second click.
