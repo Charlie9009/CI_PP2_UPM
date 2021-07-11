@@ -296,9 +296,9 @@ This will help the user identify witch page they are on.
 
 * No errors were found on game.js when passing through jshint. <img src="docs/validation/_validaton.JPG">
 
-* No errors were found on users.js when passing through jshint. <img src="docs/validation/javascript_users_validaton.JPG">
+* No errors were found on users.js when passing through jshint. <img src="docs/validation/javascript_users_validation.JPG">
 
-* No errors were found on form.js when passing through jshint. <img src="docs/validation/javascript_form_validaton.JPG">
+* No errors were found on form.js when passing through jshint. <img src="docs/validation/javascript_form_validation.JPG">
 
 #### Accessibility
 
