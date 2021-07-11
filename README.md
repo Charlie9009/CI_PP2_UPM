@@ -117,7 +117,7 @@ Therefor I chose the US flag for my background as well as the background for my 
 
 #### Fonts
 
-* I went with the font Bona Nova because I like how it runs and looks throughout the site. For the backup I picked Sans-serif.
+* I used Google Fonts and I went with the font Bona Nova because I like how it runs and looks throughout the site. For the backup I picked Sans-serif.
 
 ### Wireframes
 
