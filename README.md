@@ -487,13 +487,10 @@ game.
 * *The site was deployed to github pages.*
 1. Log in to Github.
 2. In your repository find the settings button and click it.
-3. Scroll down to GitHub Pages, beneath it says "Pages settings now has
-its own dedicated tab! Check it out here!" Click on "Check it out here".
+3. Scroll down to GitHub Pages, beneath it says "Pages settings now has its own dedicated tab! Check it out here!" Click on "Check it out here".
 4. Find source.
-5. From the drop-down menu select master from branch, click save, let
-it automatically update.
-6. You can now find a live version of the published site under Github
-pages -----------------.
+5. From the drop-down menu select master from branch, click save, let it automatically update.
+6. You can now find a live version of the published site under Github pages https://charlie9009.github.io/CI_PP2_UPM/index.html.
 
 ### Forking a repository
 
@@ -509,9 +506,7 @@ pages -----------------.
 4. To clone the repository using https copy the link.
 5. Open Git bash.
 6. Change the current directory to where you want the repository cloned.
-
-7. In your terminal type now type “Git clone” followed by the
-repository you copied.
+7. In your terminal type now type “Git clone” followed by the repository you copied.
 8. Press Enter.
 9. Done.
 
