@@ -485,7 +485,7 @@ This will help the user identify witch page they are on.
 |            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
 |  A form to drop info to get updates.  | Fill out the form and click submit.   | When I click submit there will be an alert telling the form was submitted. | Works as expected.  |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_8_13.png">
+<img src="docs/features/user_story_8_13_18.png">
 </details>
 <hr>
 
@@ -519,14 +519,13 @@ This will help the user identify witch page they are on.
 </details>
 <hr>
 
-12. As a user I want a reset button if I want to reset the
-game.
+12. As a user I want a reset button if I want to reset the game.
 
 |                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
 |            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
 |  A button to reset the game.                |       Click the button.    |  When I click the button the game will reset.      | Works as expected.  |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_5_6_12.png">
+<img src="docs/features/user_story_5_6_12_21.png">
 </details>
 <hr>
 
