@@ -207,7 +207,7 @@ button:hover {
 
 /* Modal for name validation */
 .form-modal-show-name {
-    background-color: rgb(68, 33, 30);
+    background-color: rgb(99, 24, 24);
     height: 20%;
     width: 40%;
     z-index: 1;
@@ -221,7 +221,7 @@ button:hover {
 
 /* Modal for email validation */
 .form-modal-show-email {
-    background-color: rgb(68, 33, 30);
+    background-color: rgb(99, 24, 24);
     height: 20%;
     width: 40%;
     z-index: 1;
@@ -235,7 +235,7 @@ button:hover {
 
 /* Modal for success validation */
 .form-modal-show-send {
-    background-color: rgb(68, 33, 30);
+    background-color: rgb(99, 24, 24);
     height: 20%;
     width: 40%;
     z-index: 1;

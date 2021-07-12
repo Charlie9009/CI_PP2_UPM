@@ -123,7 +123,7 @@ Therefor I chose the US flag for my background as well as the background for my 
 
 #### Colors
 
-* Most of the colors I went with were based on the American flag. So there are alot of red and white throughout the site.
+* Most of the colors I went with were first based on the American flag. So were are alot of red and white throughout the site. Very late in the process I did not like how screamish the red colors were, so with the help of the website [colormind](http://colormind.io/bootstrap/) I added some more soothing colors.
 
 * I gave the restart button a black background to make it stick out a bit more so it would be easier to spot.
 
