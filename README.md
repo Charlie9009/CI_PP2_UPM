@@ -39,15 +39,17 @@ refresh-toc -->
 
     2. [CSS](#css)
 
-    3. [Accessibility](#accessibility)
+    3. [JavaScript](#javascript)
 
-    4. [Performance](#Performance)
+    4. [Accessibility](#accessibility)
 
-    5. [Browser Compatibility](#browser-compatibility)
+    5. [Performance](#Performance)
 
-    6. [Further testing](#further-testing)
+    6. [Browser Compatibility](#browser-compatibility)
 
-    7. [Testing user stories](#testing-user-stories)
+    7. [Further testing](#further-testing)
+
+    8. [Testing user stories](#testing-user-stories)
 
 6. [API](#api)
 
