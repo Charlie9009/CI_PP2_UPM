@@ -1,3 +1,11 @@
+/**
+ * As stated in README:
+ * To help me create the Memory game I watched, examined and followed the following tutorials using their tips while also changing the code to fit my needs.
+ *  https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript 
+ *  https://www.youtube.com/watch?v=ZniVgo8U7ek&t=973s
+ *  https://www.youtube.com/watch?v=tjyDOHzKN0w&t=382s
+ */
+
 // Get card classes from html and declare card and cards variables to create an array of cards by using the spread operator.
 let card = document.getElementsByClassName('card');
 let cards = [...card];

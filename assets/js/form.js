@@ -1,4 +1,9 @@
 /**
+ * As stated in README:
+ * The credit for the functionality for sending the form directly to the site owners email goes to EmailJS.
+ */
+
+/**
  * The form.js is used by the contact.html file to validate the form.
  * It also uses emailJS as a tool to send the filled out form to the site owners gmail.
  * This first variable gets the modal by id.

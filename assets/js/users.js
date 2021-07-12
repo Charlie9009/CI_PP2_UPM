@@ -1,4 +1,10 @@
 /**
+ * As stated in README:
+ * For fetching the API I watched alot of videos and searched alot on google to learn it.
+ * In the end I watched and used a bit of code from this tutorial https://www.youtube.com/watch?v=FN_ffvw_ksE&t=1483s.
+ */
+
+/**
  * The users.js is used by the user.html file to fetch data from the webpage 'https://reqres.in'.
  * The GET list users was used to fetch the data and to display it to the users screen. 
  */
