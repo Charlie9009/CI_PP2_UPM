@@ -119,15 +119,15 @@ themselves.
 ### Design
 
 * Because my site was going to focus on a game with American presidents I wanted to have a design with an American touch to it.
-Therefor I chose the US flag for my background as well as the background for my game cards. So the US flag was the base of my design choices in this project.
+Therefore I chose the US flag for my background as well as the background for my game cards. So the US flag was the base of my design choices in this project.
 
 #### Colors
 
-* Most of the colors I went with were first based on the American flag. So were are alot of red and white throughout the site. Very late in the process I did not like how screamish the red colors were, so with the help of the website [colormind](http://colormind.io/bootstrap/) I added some more soothing colors.
+* Most of the colors I went with were first based on the American flag. So were are alot of red and white throughout the site. Very late in the process I did not like how the red colors were screaming on the page, so with the help of the website [colormind](http://colormind.io/bootstrap/) I added some more soothing colors.
 
 * I gave the restart button a black background to make it stick out a bit more so it would be easier to spot.
 
-* Because my form was already more of a read color I wanted the form validation modal to stick out a bit more, hence why I chose a darker color.
+* Because my form was more of a darker brown I wanted the form validation modal to stick out a bit more, hence why I chose a more red brown color.
 
 #### Fonts
 
