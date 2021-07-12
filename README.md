@@ -59,14 +59,13 @@ refresh-toc -->
 
 ## Project goals
 
-* The goal of this project is to challenge my own knowledge to make a fun and challenging game for users.
+* The goal of this project is to challenge my own knowledge and to learn new things to make a fun and challenging game for users.
 
 ## User experience
 
 ### Target audience
 
-The site is targeted towards everyone who wants to challenge their
-themselves.
+The site is targeted towards everyone who wants to challenge themselves.
 
 ### User stories
 
@@ -106,7 +105,7 @@ themselves.
 
 17. I want the user to get feedback on which page they are on.
 
-18. I want the user to get feedback and confirmation if they fill out a form wrong or right.
+18. I want the user to get feedback and confirmation if they fill out a form right or wrong.
 
 19. I want the site to be responsive.
 
@@ -123,7 +122,7 @@ Therefore I chose the US flag for my background as well as the background for my
 
 #### Colors
 
-* Most of the colors I went with were first based on the American flag. So were are alot of red and white throughout the site. Very late in the process I did not like how the red colors were screaming on the page, so with the help of the website [colormind](http://colormind.io/bootstrap/) I added some more soothing colors.
+* Most of the colors I went with were first based on the American flag. So there were are a lot of red and white throughout the site. Very late in the process I did not like how the red colors were screaming on the page, so with the help of the website [colormind](http://colormind.io/bootstrap/) I added some more soothing colors.
 
 * I gave the restart button a black background to make it stick out a bit more so it would be easier to spot.
 
@@ -137,13 +136,13 @@ Therefore I chose the US flag for my background as well as the background for my
 
 * Below you can see the images of the wireframes.
 
-<details><summary>The index/Game page.</summary>
+<details><summary>The Index/Game page.</summary>
 <img src="docs/wireframes/index_desktop.JPG">
 <img src="docs/wireframes/index_tablet.JPG">
 <img src="docs/wireframes/index_mobile.JPG">
 </details>
 
-<details><summary>The congratulations modal.</summary>
+<details><summary>The Congratulations modal.</summary>
 <img src="docs/wireframes/modal_desktop.JPG">
 </details>
 
@@ -164,10 +163,10 @@ Therefore I chose the US flag for my background as well as the background for my
 * **The navigation bar and footer**
 
 * The navigation bar and the footer are present on all pages and are responsive. The navigation bar shows links to Game, Users and
-Contact. There is a feature of a border bottom to show up underneath the respective link to the page the user is on.
+Contact. There is a feature of a border bottom to show up underneath the respective link of the page the user is on.
 This will help the user identify witch page they are on.
 
-* The footer contains a link to my github page if the user wants to know more about the project. It also contains a link to the White House homepage if the user wants to read about the latest news regarding the White House.
+* The footer contains a link to the site owners github page if the user wants to know more about the project. It also contains a link to the White House homepage if the user wants to read about the latest news regarding the White House.
 <br>
 <img src="docs/features/feature_nav.JPG">
 <br>
@@ -213,7 +212,7 @@ This will help the user identify witch page they are on.
 
 * **Congratulations Modal**
 
-* When a user completes the game a modal shows up to congratulate the user the game is over along with the final time and how many moves were done as well as a reset button if the user wants to play again.
+* When a user completes the game a modal shows up to congratulate the user the game is over along with the final time and how many moves were made as well as a reset button if the user wants to play again.
 <br>
 <img src="docs/features/feature_modal.JPG">
 
@@ -229,7 +228,7 @@ This will help the user identify witch page they are on.
 
 * **User page**
 
-* On the user page A fetch function was used to get data to post some users on the page.
+* On the user page a fetch function was used to get data to post some users on the page.
 <br>
 <img src="docs/features/feature_users.JPG">
 
@@ -272,6 +271,7 @@ This will help the user identify witch page they are on.
 ### User stories covered by feature:
 
 * 19. I want the site to be responsive.
+<hr>
 
 * **404 Page**
 
@@ -301,7 +301,7 @@ This will help the user identify witch page they are on.
 
 ## Libraries and programs
 
-* EmailJS was used so the filled out forms are being sent to the site owner.
+* EmailJS was used so the filled out forms are sent to the site owner.
 
 * Virtual Studio Code was used to write the code.
 
@@ -313,7 +313,7 @@ This will help the user identify witch page they are on.
 
 * WC3 Validator, Jigsaw W3 Validator, JShint, Wave Validator, Lighthouse and ami.responsivedesign were all used to test the website.
 
-* ami.responsivedesign was used to test the sites responsiveness.
+* ami.responsivedesign was used to make the mockups.
 
 ## Testing
 
@@ -433,7 +433,7 @@ This will help the user identify witch page they are on.
 
 |                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
 |            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
-|   Every page has been designed to be responsive.   |        None          |     When on smaller screens The site will work.  | Works as expected.  |
+|   Every page has been designed to be responsive.   |        None          |     When on smaller screens the site will work.  | Works as expected.  |
 <details><summary>Screenshot</summary>
 <img src="docs/features/user_story_3_19.png">
 </details>
@@ -489,7 +489,7 @@ This will help the user identify witch page they are on.
 </details>
 <hr>
 
-9. As a user I want to see other user who have played the game.
+9. As a user I want to see other users who have played the game.
 
 |                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
 |            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
@@ -550,7 +550,7 @@ game.
 </details>
 <hr>
 
-18. I want the user to get feedback and conformation if they fill out a form wrong or right.
+18. I want the user to get feedback and confirmation if they fill out a form right or wrong.
 
 |                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
 |            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
@@ -564,7 +564,7 @@ game.
 
 |                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
 |            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
-|   Every page has been designed to be responsive.   |        None          |     When on smaller screens The site will work.  | Works as expected.  |
+|   Every page has been designed to be responsive.   |        None          |     When on smaller screens the site will work.  | Works as expected.  |
 <details><summary>Screenshot</summary>
 <img src="docs/features/user_story_3_19.png">
 </details>
@@ -620,7 +620,7 @@ game.
     * **Fix:** I added a target_blank to fix it.
 
 * **Bug:** The footer cut some of the content.
-    * **Fix:** I gave it a position of absolute and the body, html a position of relative.
+    * **Fix:** I gave the footer a position of absolute, the body and html a position of relative.
 
 * **Bug:** I had white space under my footer.
     * **Fix:** I tried styling with overflow hidden but my desired result came after I inspected my page and removed some margins.
@@ -649,7 +649,7 @@ game.
 
 * In the game, if i click on card 1 and then card 2 and they are wrong they flip back, now if click on card 1 again it will not flip again. If I on the other hand click on any other card on the grid they will flip. It is just the first card choice and if the cards dont match.
 
-* In the form pop up modals there is a similiar bug as in when the form sends, when the close button is closed the first time is does not respond but the second time it does.
+* In the form pop up modals there is a similiar bug as in when the form sends, when the close button is clicked the first time is does not respond but the second time it does.
 
 * In the middle stage i had code for the restart game button that worked, but in the congratulations modal it did not. I separated the buttons and had one restart the game with location.reload and the other just to close the modal so the user also could see all the presidents turned on the cards.
 
@@ -695,13 +695,13 @@ game.
 
 * To create the form validation I used [W3 Schools](https://www.w3schools.com/js/js_validation.asp), as a reference and created my own validation.
 
-* To create the modal for the validation I also used [W3 Schools](https://www.w3schools.com/howto/howto_css_modals.asp), as a reference and then used the Javascript I'd learned to get the modal, add a loop, add and remove classes. 
+* To create the modal for the validation I also used [W3 Schools](https://www.w3schools.com/howto/howto_css_modals.asp), as a reference and then used the Javascript I had learned to get the modal, add a loop, add and remove classes. 
 
 * The credit for the functionality for sending the form directly to the site owners email goes to [EmailJS](https://www.emailjs.com/).
 
 * The credit for the content that is fetched in the users page goes to [Regres](https://reqres.in/).
 
-* For fetching the API I watched alot of videos and searched alot on google to learn it, I did not quite understand it. In the end I watched and used a bit of code from this tutorial https://www.youtube.com/watch?v=FN_ffvw_ksE&t=1483s.
+* For fetching the API I watched alot of videos and searched alot on google to learn it. In the end I watched and used a bit of code from this tutorial https://www.youtube.com/watch?v=FN_ffvw_ksE&t=1483s.
 
 * Favicon was used from [Favicon](https://favicon.io/).
 
