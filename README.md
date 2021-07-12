@@ -119,13 +119,15 @@ themselves.
 ### Design
 
 * Because my site was going to focus on a game with American presidents I wanted to have a design with an American touch to it.
-Therefor I chose the US flag for my background as well as the background for my game cards.
+Therefor I chose the US flag for my background as well as the background for my game cards. So the US flag was the base of my design choices in this project.
 
 #### Colors
 
 * Most of the colors I went with were based on the American flag. So there are alot of red and white throughout the site.
 
 * I gave the restart button a black background to make it stick out a bit more so it would be easier to spot.
+
+* Because my form was already more of a read color I wanted the form validation modal to stick out a bit more, hence why I chose a darker color.
 
 #### Fonts
 
@@ -173,11 +175,11 @@ This will help the user identify witch page they are on.
 
 ### User stories covered by this feature:
 
-1. As a user I want an easy website where I can find the game fast.
-2. As a user I want to be able to see which page I am on.
-10. As a user I want to know the site owners process making the site.
-11. As a user I want to see the latest updates from the White House.
-17. I want the user to get feedback on which page they are on.
+* 1. As a user I want an easy website where I can find the game fast.
+* 2. As a user I want to be able to see which page I am on.
+* 10. As a user I want to know the site owners process making the site.
+* 11. As a user I want to see the latest updates from the White House.
+* 17. I want the user to get feedback on which page they are on.
 <hr>
 
 * **Info area**
@@ -190,10 +192,10 @@ This will help the user identify witch page they are on.
 
 ### User stories covered by feature:
 
-5. As a user I want to see how much time has passed in real-time while playing.
-6. As a user I want to be able to see the amount of moves I have made.
-12. As a user I want a reset button if I want to reset the game.
-21. I want the user to get feedback on how much time has passed in the game and how many moves have been made.
+* 5. As a user I want to see how much time has passed in real-time while playing.
+* 6. As a user I want to be able to see the amount of moves I have made.
+* 12. As a user I want a reset button if I want to reset the game.
+* 21. I want the user to get feedback on how much time has passed in the game and how many moves have been made.
 <hr>
 
 * **Game area**
@@ -204,9 +206,9 @@ This will help the user identify witch page they are on.
 
 ### User stories covered by feature:
 
-1. As a user I want an easy website where I can find the game fast.
-3. As a user I want to be able to play on desktop, tablet and mobile devices.
-4. As a user I want to challenge my brain.
+* 1. As a user I want an easy website where I can find the game fast.
+* 3. As a user I want to be able to play on desktop, tablet and mobile devices.
+* 4. As a user I want to challenge my brain.
 <hr>
 
 * **Congratulations Modal**
@@ -217,12 +219,12 @@ This will help the user identify witch page they are on.
 
 ### User stories covered by feature:
 
-5. As a user I want to see how much time has passed in real-time while playing.
-6. As a user I want to be able to see the amount of moves I have made.
-7. As a user I want to see a pop up modal with time expired and moves made when completing the game.
-12. As a user I want a reset button if I want to reset the game.
-21. I want the user to get feedback on how much time has passed in the game and how many moves have been made.
-22. I want the user to get feedback when they beat the game.
+* 5. As a user I want to see how much time has passed in real-time while playing.
+* 6. As a user I want to be able to see the amount of moves I have made.
+* 7. As a user I want to see a pop up modal with time expired and moves made when completing the game.
+* 12. As a user I want a reset button if I want to reset the game.
+* 21. I want the user to get feedback on how much time has passed in the game and how many moves have been made.
+* 22. I want the user to get feedback when they beat the game.
 <hr>
 
 * **User page**
@@ -233,7 +235,7 @@ This will help the user identify witch page they are on.
 
 ### User stories covered by feature:
 
-9. As a user I want to see other user who have played the game.
+* 9. As a user I want to see other user who have played the game.
 <hr>
 
 * **Contact page**
@@ -244,7 +246,7 @@ This will help the user identify witch page they are on.
 
 ### User stories covered by feature:
 
-8. As a user I want to be able to drop my info for updates.
+* 8. As a user I want to be able to drop my info for updates.
 <hr>
 
 * **Form Validation**
@@ -257,8 +259,8 @@ This will help the user identify witch page they are on.
 
 ### User stories covered by feature:
 
-13. As a user I want a validation if my form was sent or if there was an error.
-18. I want the user to get feedback and confirmation if they fill out a form wrong or right.
+* 13. As a user I want a validation if my form was sent or if there was an error.
+* 18. I want the user to get feedback and confirmation if they fill out a form wrong or right.
 <hr>
 
 * **Site Responsive**
@@ -269,7 +271,7 @@ This will help the user identify witch page they are on.
 
 ### User stories covered by feature:
 
-19. I want the site to be responsive.
+* 19. I want the site to be responsive.
 
 * **404 Page**
 
@@ -279,11 +281,13 @@ This will help the user identify witch page they are on.
 
 ### User stories covered by feature:
 
-20. I want the user to come to a 404 page if they type the web address wrong.
+* 20. I want the user to come to a 404 page if they type the web address wrong.
 
 <hr>
 
 ### Features left to implement
+
+* In the future I would like to add difficulty options to the game.
 
 ## Technologies used
 
@@ -308,6 +312,8 @@ This will help the user identify witch page they are on.
 * Balsamiq was used to create the project wireframes.
 
 * WC3 Validator, Jigsaw W3 Validator, JShint, Wave Validator, Lighthouse and ami.responsivedesign were all used to test the website.
+
+* ami.responsivedesign was used to test the sites responsiveness.
 
 ## Testing
 
@@ -384,13 +390,17 @@ This will help the user identify witch page they are on.
 
 ## Browser Compatibility
 
-* * The website has been tested and are compatible in browsers Chrome, Firefox, Edge.
+* Chrome: The website is combatible and behaves as expected.
 
-* The game and the fetch api is not compatible in Internet Explorer.
+* Firefox: The website is combatible and behaves as expected.
+
+* Edge: The website is combatible and behaves as expected.
+
+* Internet Explorer: The game and the fetch api does not work in Internet Explorer. The site is not compatible.
 
 ## Further testing
 
-* I have tested the website thru phones like One Plus 8T and Iphone XR.
+* I have tested the website thru phones like One Plus 8T, Iphone X and a friends Samsung.
 
 * The site has been tested on numerous of computers and laptops.
 
@@ -645,6 +655,8 @@ game.
 
 * In Internet Explorer the game does not react to click on the cards and the fetch api does not appear.
 
+* I tested the site on a friends Iphone X and the game does not show the back side of the cards when they are clicked. What happens is that the image of the American flag rotates so that it appears mirrored. This means the user is not able to see the presidents but just the flags. I have not found a solution for this bug but I will keep looking for a solution for this problem.
+
 ## Deployment
 
 * *The site was deployed to github pages.*
@@ -675,15 +687,25 @@ game.
 
 ## Credit
 
-* The building blocks of the memory game were **heavily** inspired by the following.
+* To help me create the Memory game I watched, examined and followed the following tutorials using their tips while also changing the code to fit my needs.
 
     * https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript
     * https://www.youtube.com/watch?v=ZniVgo8U7ek&t=973s
     * https://www.youtube.com/watch?v=tjyDOHzKN0w&t=382s
 
+* To create the form validation I used [W3 Schools](https://www.w3schools.com/js/js_validation.asp), as a reference and created my own validation.
+
+* To create the modal for the validation I also used [W3 Schools](https://www.w3schools.com/howto/howto_css_modals.asp), as a reference and then used the Javascript I'd learned to get the modal, add a loop, add and remove classes. 
+
 * The credit for the functionality for sending the form directly to the site owners email goes to [EmailJS](https://www.emailjs.com/).
 
 * The credit for the content that is fetched in the users page goes to [Regres](https://reqres.in/).
+
+* For fetching the API I watched alot of videos and searched alot on google to learn it, I did not quite understand it. In the end I watched and used a bit of code from this tutorial https://www.youtube.com/watch?v=FN_ffvw_ksE&t=1483s.
+
+* Favicon was used from [Favicon](https://favicon.io/).
+
+* The smiles in the form modal was used from [Font Awesome](https://fontawesome.com/).
 
 ## Media Credit
 
