@@ -43,15 +43,19 @@ refresh-toc -->
 
     4. [Performance](#Performance)
 
-    5. [Further testing](#further-testing)
+    5. [Browser Compatibility](#browser-compatibility)
 
-    6. [Testing user stories](#testing-user-stories)
+    6. [Further testing](#further-testing)
 
-6. [Bugs](#bugs)
+    7. [Testing user stories](#testing-user-stories)
 
-7. [Deployment](#deployment)
+6. [API](#api)
 
-8. [Credit](#credit)
+7. [Bugs](#bugs)
+
+8. [Deployment](#deployment)
+
+9. [Credit](#credit)
 
     1. [Media credit](#media-credit)
 
@@ -600,7 +604,7 @@ This will help the user identify witch page they are on.
 </details>
 <hr>
 
-### API
+## API
 
 * EmailJS
     * Create an account on EmailJS
